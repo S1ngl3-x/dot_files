@@ -8,3 +8,4 @@ map <C-o> :NERDTreeToggle<CR>
 
 set number
 colorscheme onedark
+set clipboard+=unnamedplus
