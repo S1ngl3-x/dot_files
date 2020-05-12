@@ -18,4 +18,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/itchyny/lightline.vim'
     Plug 'https://github.com/wikitopian/hardmode'
     Plug 'https://github.com/tpope/vim-surround'
+    Plug 'https://github.com/airblade/vim-gitgutter'
+    Plug 'https://github.com/joshdick/onedark.vim'
 call plug#end()
