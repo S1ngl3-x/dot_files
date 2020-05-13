@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Michael Angstadt//biweekly 0.6.0//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20200224T152106Z
+DTSTART:20200313T085000Z
+DTEND:20200313T120900Z
+CREATED:20200224T152106Z
+ATTENDEE;CN=adamlipowski1988:mailto:adamlipowski1988@gmail.com
+SUMMARY:#7208490265: Z Praha\, hl.n.\, do Ostrava\, hl.n.\, sedadlo: 4/86
+DESCRIPTION:Příjezd/Odjezd|Zastávka/Přestup|Nást.|Spoj|Vůz/sedadla\nOdj:9:5
+ 0|Praha\, hl.n.|Praha → Havířov (RJ\, RJ 1005)|4/86\nPří:13:09|Ostrava\, h
+ l.n.\n
+LOCATION:50.0829200744629\, 14.4356060028076
+UID:1292318218@regiojet.cz
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR

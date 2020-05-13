@@ -1,0 +1,290 @@
+25245 [2020-05-13 13:25:48.500] [main] [info] Identity created at 1583930125 - using ID Schema 1
+25245 [2020-05-13 13:25:48.502] [main] [info] ------------- Starting Sync (adam.lipowski@email.cz) ---------------
+25245 [2020-05-13 13:25:49.741] [metadata] [info] Metadata delta stream starting...
+25245 [2020-05-13 13:25:51.505] [background] [info] Marking all folders as `busy`
+25245 [2020-05-13 13:25:51.505] [background] [info] Syncing folder list...
+25245 [2020-05-13 13:25:52.187] [background] [error] Created Mailspring container folder: Mailspring.
+25245 [2020-05-13 13:25:52.256] [background] [error] Created required Mailspring folder: MailspringSnoozed.
+25245 [2020-05-13 13:25:52.270] [background] [info] Syncing folder list...
+25245 [2020-05-13 13:25:52.506] [background] [error] Could not create required Mailspring folder: MailspringSnoozed. ErrorCreate
+25245 [2020-05-13 13:25:52.601] [background] [info] syncFolderUIDRange for INBOX, UIDs: 9229 - 9979, Heavy: true
+25245 [2020-05-13 13:25:52.619] [foreground] [info] Connection does not support idling. Locking until more to do...
+25245 [2020-05-13 13:25:55.565] [background] [info] - remote=125, local=0
+25245 [2020-05-13 13:25:56.490] [background] [info] syncFolderUIDRange for INBOX, UIDs: 9229 - 9979, Heavy: false
+25245 [2020-05-13 13:25:56.527] [background] [info] - remote=125, local=125
+25245 [2020-05-13 13:25:59.069] [background] [info] syncFolderUIDRange for sent, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:25:59.875] [background] [info] - remote=37, local=0
+25245 [2020-05-13 13:25:59.906] [background] [info] - Updating message fJSPiwCmpXifUpFgZfoQ7wzPP3bRs5SAbJMM5cAEy
+25245 [2020-05-13 13:25:59.906] [background] [info] -- UID (9413 to 9411)
+25245 [2020-05-13 13:25:59.906] [background] [info] -- FolderID (R8vA2aN8VzFo7a1ZdYjjiF7wcYA5qTVmKh3BdAa96 to LZC7uWwY7eQGrUdoK3ECeC3SqnG58pBxMyk1aNuNf)
+25245 [2020-05-13 13:26:00.156] [background] [info] syncFolderUIDRange for sent, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:00.199] [background] [info] - remote=37, local=37
+25245 [2020-05-13 13:26:00.772] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:00.791] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:00.851] [background] [info] syncFolderUIDRange for drafts, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:26:01.148] [background] [info] - remote=21, local=0
+25245 [2020-05-13 13:26:01.371] [background] [info] syncFolderUIDRange for drafts, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:01.404] [background] [info] - remote=21, local=21
+25245 [2020-05-13 13:26:03.244] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:03.248] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:03.369] [background] [info] syncFolderUIDRange for archive, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:26:03.495] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:26:03.495] [background] [info] syncFolderUIDRange for archive, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:03.511] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:26:03.513] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:03.528] [metadataExpiration] [info] Scanning for expired metadata
+25245 [2020-05-13 13:26:03.528] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+25245 [2020-05-13 13:26:03.529] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:03.643] [background] [info] syncFolderUIDRange for trash, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:26:03.810] [background] [info] - remote=1, local=0
+25245 [2020-05-13 13:26:03.814] [background] [info] syncFolderUIDRange for trash, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:03.892] [background] [info] - remote=1, local=1
+25245 [2020-05-13 13:26:03.892] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:03.895] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:03.945] [background] [info] syncFolderUIDRange for spam, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:26:05.381] [background] [info] - remote=54, local=0
+25245 [2020-05-13 13:26:05.769] [background] [info] syncFolderUIDRange for spam, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:05.809] [background] [info] - remote=54, local=54
+25245 [2020-05-13 13:26:05.810] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:05.818] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:05.870] [background] [info] syncFolderUIDRange for newsletters, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:26:08.343] [calContacts] [info] Encountered exception: {"debuginfo":"https://email.seznam.cz/ RETURNED <!doctype html>\n<html lang=\"cs\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<link rel=\"shortcut icon\" href=\"/static/wm/img/favicon/favicon.ico\"/>\n\t\t<link rel=\"stylesheet\" href=\"/static/wm/css/error.css\" type=\"text/css\" />\n\t\t<title>Něco se pokazilo &ndash; Seznam E-mail</title>\n\t</head>\n\n\t<body>\n\t\t<section>\n\t\t\t<header>\n\t\t\t\t<h1>\n\t\t\t\t\t<a href=\"/\"><img src=\"/static/wm/img/email-logo.svg\" alt=\"Seznam E-mail\" /></a>\n\t\t\t\t\tOmlouváme se, něco se pokazilo</h1>\n\t\t\t\t<p>Při předchozím kroku nastala chyba.<br/>Zkuste to prosím později.</p>\n\t\t\t</header>\n\n\t\t\t<p>\n\t\t\t\t<a href=\"https://email.seznam.cz/\">‹ Zpět do Emailu</a>\n\t\t\t</p>\n\t\t</section>\n\n\t\t<footer>\n\t\t\t<p>Copyright &copy; Seznam.cz, a.s.</p>\n\t\t\t<p>\n\t\t\t\t<a href=\"http://seznam.cz\">Seznam</a> &ndash; <a href=\"http://napoveda.seznam.cz/cz/email/\">Nápověda</a> &ndash; <a href=\"http://onas.seznam.cz/cz/kontaktujte-nas/kontakty/\">Kontakt</a>\n\t\t\t</p>\n\t\t</footer>\n\t</body>\n</html>\n","key":"Invalid Response Code: 400","retryable":true,"what":"std::exception"}
+25245 [2020-05-13 13:26:09.949] [main] [info] [local-14a57c89-de47] Running SyncbackDraftTask performLocal:
+25245 [2020-05-13 13:26:09.952] [main] [info] [local-14a57c89-de47] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:10.255] [foreground] [info] [local-14a57c89-de47] Running SyncbackDraftTask performRemote:
+25245 [2020-05-13 13:26:10.255] [foreground] [info] [local-14a57c89-de47] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:10.268] [background] [info] - remote=162, local=0
+25245 [2020-05-13 13:26:10.296] [foreground] [info] syncFolderUIDRange for INBOX, UIDs: 9422 - 9979, Heavy: false
+25245 [2020-05-13 13:26:10.464] [foreground] [info] - remote=101, local=101
+25245 [2020-05-13 13:26:10.677] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (135949 microseconds, 120305 waiting to aquire)
+25245 [2020-05-13 13:26:11.249] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (116110 microseconds, 23 waiting to aquire)
+25245 [2020-05-13 13:26:11.798] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (139498 microseconds, 134227 waiting to aquire)
+25245 [2020-05-13 13:26:12.497] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (420674 microseconds, 56 waiting to aquire)
+25245 [2020-05-13 13:26:12.718] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (631733 microseconds, 629760 waiting to aquire)
+25245 [2020-05-13 13:26:12.857] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (116387 microseconds, 92 waiting to aquire)
+25245 [2020-05-13 13:26:12.890] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (91231 microseconds, 78951 waiting to aquire)
+25245 [2020-05-13 13:26:13.032] [background] [info] syncFolderUIDRange for newsletters, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:13.067] [background] [info] - remote=162, local=162
+25245 [2020-05-13 13:26:14.109] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (63074 microseconds, 81 waiting to aquire)
+25245 [2020-05-13 13:26:15.522] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:15.536] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:15.653] [background] [info] syncFolderUIDRange for INBOX/blablah, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:26:15.686] [main] [info] [local-013cc4d5-b787] Running DestroyDraftTask performLocal:
+25245 [2020-05-13 13:26:15.687] [main] [info] -- Hiding / detatching drafts while they're deleted...
+25245 [2020-05-13 13:26:15.689] [main] [info] -- Replacing local ID aQMafG7msH6mdXpxzKDFT9tsC6xs3z7TaQTK3GhEg with deleted-aE2YNhknuGZje8qjVZgf2hj19UWqZCUX5LJFRTTb
+25245 [2020-05-13 13:26:15.704] [main] [info] [local-013cc4d5-b787] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:15.747] [foreground] [info] Connection does not support idling. Locking until more to do...
+25245 [2020-05-13 13:26:15.773] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:26:15.773] [background] [info] syncFolderUIDRange for INBOX/blablah, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:15.792] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:26:15.792] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:15.804] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:15.899] [background] [info] syncFolderUIDRange for Mailspring, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:26:15.972] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:26:15.972] [background] [info] syncFolderUIDRange for Mailspring, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:15.992] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:26:15.996] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:16.005] [foreground] [info] [local-013cc4d5-b787] Running DestroyDraftTask performRemote:
+25245 [2020-05-13 13:26:16.006] [foreground] [info] [local-013cc4d5-b787] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:16.027] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:16.086] [foreground] [info] syncFolderUIDRange for INBOX, UIDs: 9422 - 9979, Heavy: false
+25245 [2020-05-13 13:26:16.101] [background] [info] syncFolderUIDRange for MailspringSnoozed, UIDs: 1 - 9979, Heavy: true
+25245 [2020-05-13 13:26:16.132] [foreground] [info] - remote=101, local=101
+25245 [2020-05-13 13:26:16.167] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:26:16.168] [background] [info] syncFolderUIDRange for MailspringSnoozed, UIDs: 1 - 9979, Heavy: false
+25245 [2020-05-13 13:26:16.183] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:26:16.184] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:26:16.216] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:26:16.253] [background] [info] Sync loop deleting unlinked messages with phase 2.
+25245 [2020-05-13 13:26:16.253] [background] [info] Sync loop complete.
+25245 [2020-05-13 13:26:16.254] [background] [info] Syncing folder list...
+25245 [2020-05-13 13:26:16.507] [background] [error] Could not create required Mailspring folder: MailspringSnoozed. ErrorCreate
+25245 [2020-05-13 13:26:16.611] [background] [info] syncFolderUIDRange for INBOX, UIDs: 1 - 9229, Heavy: true
+25245 [2020-05-13 13:26:17.779] [main] [info] [local-4d7ca061-f246] Running SyncbackDraftTask performLocal:
+25245 [2020-05-13 13:26:17.790] [main] [info] [local-4d7ca061-f246] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:18.262] [foreground] [info] [local-4d7ca061-f246] Running SyncbackDraftTask performRemote:
+25245 [2020-05-13 13:26:18.262] [foreground] [info] [local-4d7ca061-f246] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:18.305] [foreground] [info] syncFolderUIDRange for INBOX, UIDs: 9422 - 9979, Heavy: false
+25245 [2020-05-13 13:26:18.353] [foreground] [info] - remote=101, local=101
+25245 [2020-05-13 13:26:18.355] [foreground] [info] Connection does not support idling. Locking until more to do...
+25245 [2020-05-13 13:26:25.950] [main] [info] [local-444faed4-b969] Running SyncbackDraftTask performLocal:
+25245 [2020-05-13 13:26:25.954] [main] [info] [local-444faed4-b969] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:26.256] [foreground] [info] [local-444faed4-b969] Running SyncbackDraftTask performRemote:
+25245 [2020-05-13 13:26:26.256] [foreground] [info] [local-444faed4-b969] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:26.324] [foreground] [info] syncFolderUIDRange for INBOX, UIDs: 9422 - 9979, Heavy: false
+25245 [2020-05-13 13:26:26.362] [foreground] [info] - remote=101, local=101
+25245 [2020-05-13 13:26:26.366] [foreground] [info] Connection does not support idling. Locking until more to do...
+25245 [2020-05-13 13:26:26.955] [metadataExpiration] [info] Scanning for expired metadata
+25245 [2020-05-13 13:26:26.955] [metadataExpiration] [info] -- Will wake for next expiration in 5sec
+25245 [2020-05-13 13:26:32.002] [metadataExpiration] [info] Scanning for expired metadata
+25245 [2020-05-13 13:26:32.004] [metadataExpiration] [info] -- Sending expiration event for Message aQMafG7msH6mdXpxzKDFT9tsC6xs3z7TaQTK3GhEg
+25245 [2020-05-13 13:26:32.005] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+25245 [2020-05-13 13:26:32.511] [main] [info] [local-7d2a1e6e-a212] Running SyncbackDraftTask performLocal:
+25245 [2020-05-13 13:26:32.519] [main] [info] [local-7d2a1e6e-a212] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:32.689] [main] [info] [local-cc1475be-2468] Running SendDraftTask performLocal:
+25245 [2020-05-13 13:26:32.691] [main] [info] [local-cc1475be-2468] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:32.825] [foreground] [info] [local-7d2a1e6e-a212] Running SyncbackDraftTask performRemote:
+25245 [2020-05-13 13:26:32.825] [foreground] [info] [local-7d2a1e6e-a212] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:32.826] [foreground] [info] [local-cc1475be-2468] Running SendDraftTask performRemote:
+25245 [2020-05-13 13:26:32.828] [foreground] [info] - Sending draft 0E42BD7F-CDAC-43DF-BB16-F5F60DC9A3A2@getmailspring.com
+25245 [2020-05-13 13:26:32.828] [foreground] [info] -- Identified `sent` folder: sent
+25245 [2020-05-13 13:26:32.829] [foreground] [info] -- Sending customized message bodies to each recipient:
+25245 [2020-05-13 13:26:32.829] [foreground] [info] --- Sending to adamlipowski1988@gmail.com
+25245 [2020-05-13 13:26:34.649] [foreground] [info] -- No messages found. Sleeping 1 to wait for sent folder to settle...
+25245 [2020-05-13 13:26:35.765] [foreground] [info] -- No messages found. Sleeping 1 to wait for sent folder to settle...
+25245 [2020-05-13 13:26:36.894] [foreground] [info] -- No messages found. Sleeping 2 to wait for sent folder to settle...
+25245 [2020-05-13 13:26:37.091] [main] [info] [local-d3489c42-5ae8] Running ChangeUnreadTask performLocal:
+25245 [2020-05-13 13:26:37.106] [main] [info] [local-d3489c42-5ae8] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:38.829] [main] [info] [local-d20d8dd1-9cb6] Running ChangeUnreadTask performLocal:
+25245 [2020-05-13 13:26:38.839] [main] [info] [local-d20d8dd1-9cb6] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:38.962] [foreground] [info] -- No messages matching the message-id were found in the Sent folder.
+25245 [2020-05-13 13:26:38.962] [foreground] [info] -- Placing a new message with `self` body in the sent folder.
+25245 [2020-05-13 13:26:39.059] [foreground] [info] -- Syncing sent message (UID 9980) to the local mail store
+25245 [2020-05-13 13:26:39.247] [foreground] [info] -- Synced sent message (Sent UID 9980 = Local ID 8yn5x6cQFewvm52M13NCAXe3NeqnwMsjziwyDok4F)
+25245 [2020-05-13 13:26:39.247] [foreground] [info] -- Queueing task to attach link-tracking draft metadata to new message.
+25245 [2020-05-13 13:26:39.248] [foreground] [info] [HdpoHEVD92RHu1UzBrCnT8DZiEUyNNiiQvxmZgPV] Running SyncbackMetadataTask performLocal:
+25245 [2020-05-13 13:26:39.255] [foreground] [info] [HdpoHEVD92RHu1UzBrCnT8DZiEUyNNiiQvxmZgPV] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:39.256] [foreground] [info] -- Queueing task to attach open-tracking draft metadata to new message.
+25245 [2020-05-13 13:26:39.256] [foreground] [info] [9wqsnbQMsi10drWjVHGxiOFXa10X8OH60XlkY2Ue] Running SyncbackMetadataTask performLocal:
+25245 [2020-05-13 13:26:39.281] [foreground] [info] [9wqsnbQMsi10drWjVHGxiOFXa10X8OH60XlkY2Ue] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:39.284] [foreground] [info] -- Queueing task to attach send-later draft metadata to new message.
+25245 [2020-05-13 13:26:39.285] [foreground] [info] [mjRohqsiferOx7KYqabHqoKDckJZG1WQ8E5eUknZ] Running SyncbackMetadataTask performLocal:
+25245 [2020-05-13 13:26:39.288] [foreground] [info] [mjRohqsiferOx7KYqabHqoKDckJZG1WQ8E5eUknZ] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:39.289] [foreground] [info] [local-cc1475be-2468] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:39.291] [foreground] [info] [local-d3489c42-5ae8] Running ChangeUnreadTask performRemote:
+25245 [2020-05-13 13:26:39.450] [foreground] [info] [local-d3489c42-5ae8] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:39.451] [foreground] [info] [local-d20d8dd1-9cb6] Running ChangeUnreadTask performRemote:
+25245 [2020-05-13 13:26:39.479] [foreground] [info] [local-d20d8dd1-9cb6] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:39.479] [foreground] [info] [HdpoHEVD92RHu1UzBrCnT8DZiEUyNNiiQvxmZgPV] Running SyncbackMetadataTask performRemote:
+25245 [2020-05-13 13:26:39.843] [main] [info] [local-6709b444-d4c6] Running ChangeUnreadTask performLocal:
+25245 [2020-05-13 13:26:39.851] [main] [info] [local-6709b444-d4c6] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:40.049] [foreground] [info] Syncback of metadata 8yn5x6cQFewvm52M13NCAXe3NeqnwMsjziwyDok4F:link-tracking = {"headerMessageId":"0E42BD7F-CDAC-43DF-BB16-F5F60DC9A3A2@getmailspring.com","objectType":"message","value":{"links":[],"tracked":true,"uid":"0E42BD7F-CDAC-43DF-BB16-F5F60DC9A3A2@getmailspring.com"},"version":1} succeeded.
+25245 [2020-05-13 13:26:40.049] [foreground] [info] [HdpoHEVD92RHu1UzBrCnT8DZiEUyNNiiQvxmZgPV] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:40.049] [metadata] [info] Received metadata V1 for (message - 8yn5x6cQFewvm52M13NCAXe3NeqnwMsjziwyDok4F)
+25245 [2020-05-13 13:26:40.049] [metadata] [info]  -- Ignored. Local model has >= version.
+25245 [2020-05-13 13:26:40.052] [foreground] [info] [9wqsnbQMsi10drWjVHGxiOFXa10X8OH60XlkY2Ue] Running SyncbackMetadataTask performRemote:
+25245 [2020-05-13 13:26:40.598] [metadata] [info] Received metadata V1 for (message - 8yn5x6cQFewvm52M13NCAXe3NeqnwMsjziwyDok4F)
+25245 [2020-05-13 13:26:40.598] [metadata] [info]  -- Ignored. Local model has >= version.
+25245 [2020-05-13 13:26:40.600] [foreground] [info] Syncback of metadata 8yn5x6cQFewvm52M13NCAXe3NeqnwMsjziwyDok4F:open-tracking = {"headerMessageId":"0E42BD7F-CDAC-43DF-BB16-F5F60DC9A3A2@getmailspring.com","objectType":"message","value":{"open_count":0,"open_data":[],"uid":"0E42BD7F-CDAC-43DF-BB16-F5F60DC9A3A2@getmailspring.com"},"version":1} succeeded.
+25245 [2020-05-13 13:26:40.600] [foreground] [info] [9wqsnbQMsi10drWjVHGxiOFXa10X8OH60XlkY2Ue] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:40.602] [foreground] [info] [mjRohqsiferOx7KYqabHqoKDckJZG1WQ8E5eUknZ] Running SyncbackMetadataTask performRemote:
+25245 [2020-05-13 13:26:41.164] [metadata] [info] Received metadata V1 for (message - 8yn5x6cQFewvm52M13NCAXe3NeqnwMsjziwyDok4F)
+25245 [2020-05-13 13:26:41.167] [metadata] [info]  -- Ignored. Local model has >= version.
+25245 [2020-05-13 13:26:41.171] [foreground] [info] Syncback of metadata 8yn5x6cQFewvm52M13NCAXe3NeqnwMsjziwyDok4F:send-later = {"headerMessageId":"0E42BD7F-CDAC-43DF-BB16-F5F60DC9A3A2@getmailspring.com","objectType":"message","value":{"expiration":null},"version":1} succeeded.
+25245 [2020-05-13 13:26:41.172] [foreground] [info] [mjRohqsiferOx7KYqabHqoKDckJZG1WQ8E5eUknZ] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:41.174] [foreground] [info] [local-6709b444-d4c6] Running ChangeUnreadTask performRemote:
+25245 [2020-05-13 13:26:41.213] [foreground] [info] [local-6709b444-d4c6] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:41.463] [foreground] [info] syncFolderUIDRange for INBOX, UIDs: 9422 - 9981, Heavy: false
+25245 [2020-05-13 13:26:41.496] [foreground] [info] - remote=101, local=101
+25245 [2020-05-13 13:26:41.498] [foreground] [info] Connection does not support idling. Locking until more to do...
+25245 [2020-05-13 13:26:43.496] [main] [info] [local-fc9b6e61-4511] Running ChangeUnreadTask performLocal:
+25245 [2020-05-13 13:26:43.508] [main] [info] [local-fc9b6e61-4511] -- Succeeded. Changing status to `remote`
+25245 [2020-05-13 13:26:43.811] [foreground] [info] [local-fc9b6e61-4511] Running ChangeUnreadTask performRemote:
+25245 [2020-05-13 13:26:43.849] [foreground] [info] [local-fc9b6e61-4511] -- Succeeded. Changing status to `complete`
+25245 [2020-05-13 13:26:43.932] [foreground] [info] syncFolderUIDRange for INBOX, UIDs: 9422 - 9981, Heavy: false
+25245 [2020-05-13 13:26:43.965] [foreground] [info] - remote=101, local=101
+25245 [2020-05-13 13:26:43.969] [foreground] [info] Connection does not support idling. Locking until more to do...
+25245 [2020-05-13 13:26:45.575] [metadata] [info] Received metadata V2 for (message - 8yn5x6cQFewvm52M13NCAXe3NeqnwMsjziwyDok4F)
+25245 [2020-05-13 13:26:45.575] [metadata] [info]  -- Saved on to local model.
+25245 [2020-05-13 13:26:51.777] [background] [info] - remote=1339, local=0
+25245 [2020-05-13 13:26:59.176] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (66104 microseconds, 47 waiting to aquire)
+25245 [2020-05-13 13:26:59.694] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (95191 microseconds, 70 waiting to aquire)
+25245 [2020-05-13 13:27:01.866] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (62139 microseconds, 15 waiting to aquire)
+25245 [2020-05-13 13:27:05.450] [background] [info] syncFolderUIDRange for INBOX, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:05.650] [background] [info] - remote=1464, local=1463
+25245 [2020-05-13 13:27:05.657] [background] [info] - Fetching full headers for 1 (of 1 needed)
+25245 [2020-05-13 13:27:05.721] [background] [info] - Updating message fJSPiwCmpXifUpFgZfoQ7wzPP3bRs5SAbJMM5cAEy
+25245 [2020-05-13 13:27:05.721] [background] [info] -- UID (9411 to 9413)
+25245 [2020-05-13 13:27:05.721] [background] [info] -- FolderID (LZC7uWwY7eQGrUdoK3ECeC3SqnG58pBxMyk1aNuNf to R8vA2aN8VzFo7a1ZdYjjiF7wcYA5qTVmKh3BdAa96)
+25245 [2020-05-13 13:27:05.731] [background] [info] Cleaning local cache and updating stats
+25245 [2020-05-13 13:27:05.756] [background] [info] -- 0 message bodies deleted from local cache.
+25245 [2020-05-13 13:27:05.861] [background] [info] syncFolderUIDRange for sent, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:06.007] [background] [info] - remote=1, local=1
+25245 [2020-05-13 13:27:06.007] [background] [info] syncFolderUIDRange for sent, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:06.047] [background] [info] - remote=38, local=37
+25245 [2020-05-13 13:27:06.047] [background] [info] - Fetching full headers for 1 (of 1 needed)
+25245 [2020-05-13 13:27:06.138] [background] [info] - Updating message fJSPiwCmpXifUpFgZfoQ7wzPP3bRs5SAbJMM5cAEy
+25245 [2020-05-13 13:27:06.138] [background] [info] -- UID (9413 to 9411)
+25245 [2020-05-13 13:27:06.138] [background] [info] -- FolderID (R8vA2aN8VzFo7a1ZdYjjiF7wcYA5qTVmKh3BdAa96 to LZC7uWwY7eQGrUdoK3ECeC3SqnG58pBxMyk1aNuNf)
+25245 [2020-05-13 13:27:06.202] [background] [info] syncFolderUIDRange for drafts, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:06.270] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:06.270] [background] [info] syncFolderUIDRange for drafts, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:06.308] [background] [info] - remote=21, local=21
+25245 [2020-05-13 13:27:06.396] [background] [info] syncFolderUIDRange for archive, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:06.463] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:06.463] [background] [info] syncFolderUIDRange for archive, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:06.479] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:06.623] [background] [info] syncFolderUIDRange for trash, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:06.689] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:06.689] [background] [info] syncFolderUIDRange for trash, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:06.775] [background] [info] - remote=1, local=1
+25245 [2020-05-13 13:27:06.840] [background] [info] syncFolderUIDRange for spam, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:06.913] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:06.914] [background] [info] syncFolderUIDRange for spam, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:06.949] [background] [info] - remote=54, local=54
+25245 [2020-05-13 13:27:07.035] [background] [info] syncFolderUIDRange for newsletters, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:07.114] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:07.114] [background] [info] syncFolderUIDRange for newsletters, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:07.164] [background] [info] - remote=162, local=162
+25245 [2020-05-13 13:27:08.662] [background] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (63995 microseconds, 89 waiting to aquire)
+25245 [2020-05-13 13:27:09.584] [background] [info] syncFolderUIDRange for INBOX/blablah, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:09.654] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:09.655] [background] [info] syncFolderUIDRange for INBOX/blablah, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:09.675] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:09.758] [background] [info] syncFolderUIDRange for Mailspring, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:09.831] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:09.831] [background] [info] syncFolderUIDRange for Mailspring, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:09.852] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:09.939] [background] [info] syncFolderUIDRange for MailspringSnoozed, UIDs: 9979 - 9981, Heavy: true
+25245 [2020-05-13 13:27:10.011] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:10.012] [background] [info] syncFolderUIDRange for MailspringSnoozed, UIDs: 1 - 0, Heavy: false
+25245 [2020-05-13 13:27:10.036] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:27:10.037] [background] [info] Sync loop deleting unlinked messages with phase 1.
+25245 [2020-05-13 13:27:10.039] [background] [info] Sync loop complete.
+25245 [2020-05-13 13:27:10.039] [background] [info] Syncing folder list...
+25245 [2020-05-13 13:27:10.593] [background] [error] Could not create required Mailspring folder: MailspringSnoozed. ErrorCreate
+25245 [2020-05-13 13:27:14.117] [background] [info] Sync loop deleting unlinked messages with phase 2.
+25245 [2020-05-13 13:27:14.119] [background] [info] Sync loop complete.
+25245 [2020-05-13 13:27:14.119] [background] [info] Syncing folder list...
+25245 [2020-05-13 13:27:14.441] [background] [error] Could not create required Mailspring folder: MailspringSnoozed. ErrorCreate
+25245 [2020-05-13 13:27:16.128] [background] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (142046 microseconds, 133 waiting to aquire)
+25245 [2020-05-13 13:27:17.179] [background] [info] Sync loop deleting unlinked messages with phase 1.
+25245 [2020-05-13 13:27:17.187] [background] [info] Sync loop complete.
+25245 [2020-05-13 13:27:17.188] [background] [info] Syncing folder list...
+25245 [2020-05-13 13:27:17.524] [background] [error] Could not create required Mailspring folder: MailspringSnoozed. ErrorCreate
+25245 [2020-05-13 13:27:18.255] [background] [info] Sync loop deleting unlinked messages with phase 2.
+25245 [2020-05-13 13:27:18.256] [background] [info] Sync loop complete.
+25245 [2020-05-13 13:29:18.256] [background] [info] Syncing folder list...
+25245 [2020-05-13 13:29:18.385] [background] [error] Could not create required Mailspring folder: MailspringSnoozed. ErrorCreate
+25245 [2020-05-13 13:29:18.531] [background] [info] syncFolderUIDRange for INBOX, UIDs: 7743 - 9981, Heavy: false
+25245 [2020-05-13 13:29:18.600] [background] [info] - remote=401, local=400
+25245 [2020-05-13 13:29:18.604] [background] [info] - Fetching full headers for 1 (of 1 needed)
+25245 [2020-05-13 13:29:19.090] [background] [info] - Updating message fJSPiwCmpXifUpFgZfoQ7wzPP3bRs5SAbJMM5cAEy
+25245 [2020-05-13 13:29:19.090] [background] [info] -- UID (9411 to 9413)
+25245 [2020-05-13 13:29:19.090] [background] [info] -- FolderID (LZC7uWwY7eQGrUdoK3ECeC3SqnG58pBxMyk1aNuNf to R8vA2aN8VzFo7a1ZdYjjiF7wcYA5qTVmKh3BdAa96)
+25245 [2020-05-13 13:29:19.180] [background] [info] syncFolderUIDRange for sent, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:19.342] [background] [info] - remote=38, local=37
+25245 [2020-05-13 13:29:19.342] [background] [info] - Fetching full headers for 1 (of 1 needed)
+25245 [2020-05-13 13:29:19.397] [background] [info] - Updating message fJSPiwCmpXifUpFgZfoQ7wzPP3bRs5SAbJMM5cAEy
+25245 [2020-05-13 13:29:19.397] [background] [info] -- UID (9413 to 9411)
+25245 [2020-05-13 13:29:19.398] [background] [info] -- FolderID (R8vA2aN8VzFo7a1ZdYjjiF7wcYA5qTVmKh3BdAa96 to LZC7uWwY7eQGrUdoK3ECeC3SqnG58pBxMyk1aNuNf)
+25245 [2020-05-13 13:29:19.504] [background] [info] syncFolderUIDRange for drafts, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:19.608] [background] [info] - remote=21, local=21
+25245 [2020-05-13 13:29:19.726] [background] [info] syncFolderUIDRange for archive, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:19.801] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:29:19.881] [background] [warning] [SLOW] Transaction=syncMessageBodies > 60ms (79634 microseconds, 79617 waiting to aquire)
+25245 [2020-05-13 13:29:19.936] [background] [info] syncFolderUIDRange for trash, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:20.088] [background] [info] - remote=1, local=1
+25245 [2020-05-13 13:29:20.148] [background] [info] syncFolderUIDRange for spam, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:20.288] [background] [info] - remote=54, local=54
+25245 [2020-05-13 13:29:20.368] [background] [warning] [SLOW] Transaction=saveFolderStatus > 60ms (79561 microseconds, 79113 waiting to aquire)
+25245 [2020-05-13 13:29:20.427] [background] [info] syncFolderUIDRange for newsletters, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:20.558] [background] [info] - remote=162, local=162
+25245 [2020-05-13 13:29:20.657] [background] [info] syncFolderUIDRange for INBOX/blablah, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:20.740] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:29:20.837] [background] [info] syncFolderUIDRange for Mailspring, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:20.919] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:29:21.016] [background] [info] syncFolderUIDRange for MailspringSnoozed, UIDs: 1 - 9981, Heavy: false
+25245 [2020-05-13 13:29:21.098] [background] [info] - remote=0, local=0
+25245 [2020-05-13 13:29:21.117] [background] [info] Sync loop deleting unlinked messages with phase 1.
+25245 [2020-05-13 13:29:21.119] [background] [info] Sync loop complete.

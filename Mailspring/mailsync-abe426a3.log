@@ -1,0 +1,467 @@
+21897 [2020-05-13 13:19:06.171] [main] [info] Identity created at 1583930125 - using ID Schema 1
+21897 [2020-05-13 13:19:06.174] [main] [info] ------------- Starting Sync (adamlipowski1988@gmail.com) ---------------
+21897 [2020-05-13 13:19:07.282] [metadata] [info] Metadata delta stream starting...
+21897 [2020-05-13 13:19:10.179] [background] [info] Fetching XOAuth2 access token from Gmail for abe426a3
+21897 [2020-05-13 13:19:10.322] [background] [info] Marking all folders as `busy`
+21897 [2020-05-13 13:19:10.322] [background] [info] Syncing folder list...
+21897 [2020-05-13 13:19:10.822] [background] [info] Syncing folder list...
+21897 [2020-05-13 13:19:10.921] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 8681 - 9431, Heavy: true
+21897 [2020-05-13 13:19:11.284] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+21897 [2020-05-13 13:19:12.106] [background] [info] - remote=693, local=0
+21897 [2020-05-13 13:19:13.195] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (64593 microseconds, 15 waiting to aquire)
+21897 [2020-05-13 13:19:16.910] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (77450 microseconds, 71 waiting to aquire)
+21897 [2020-05-13 13:19:17.473] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (62257 microseconds, 86 waiting to aquire)
+21897 [2020-05-13 13:19:17.607] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (62007 microseconds, 109 waiting to aquire)
+21897 [2020-05-13 13:19:17.929] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9003 - 9431, Heavy: false
+21897 [2020-05-13 13:19:18.103] [background] [info] - remote=400, local=400
+21897 [2020-05-13 13:19:19.096] [background] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (67151 microseconds, 36 waiting to aquire)
+21897 [2020-05-13 13:19:21.177] [metadataExpiration] [info] Scanning for expired metadata
+21897 [2020-05-13 13:19:21.177] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+21897 [2020-05-13 13:19:21.585] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 652, Heavy: true
+21897 [2020-05-13 13:19:21.671] [background] [info] - remote=0, local=0
+21897 [2020-05-13 13:19:21.671] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 652, Heavy: false
+21897 [2020-05-13 13:19:21.709] [background] [info] - remote=0, local=0
+21897 [2020-05-13 13:19:21.709] [background] [info] Cleaning local cache and updating stats
+21897 [2020-05-13 13:19:21.710] [background] [info] -- 0 message bodies deleted from local cache.
+21897 [2020-05-13 13:19:21.750] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: true
+21897 [2020-05-13 13:19:21.840] [background] [info] - remote=1, local=0
+21897 [2020-05-13 13:19:21.847] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+21897 [2020-05-13 13:19:21.893] [background] [info] - remote=1, local=1
+21897 [2020-05-13 13:19:21.893] [background] [info] Cleaning local cache and updating stats
+21897 [2020-05-13 13:19:21.894] [background] [info] -- 0 message bodies deleted from local cache.
+21897 [2020-05-13 13:19:21.895] [background] [info] Sync loop deleting unlinked messages with phase 2.
+21897 [2020-05-13 13:19:21.896] [background] [info] Sync loop complete.
+21897 [2020-05-13 13:19:21.896] [background] [info] Syncing folder list...
+21897 [2020-05-13 13:19:21.972] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 3681 - 8681, Heavy: true
+21897 [2020-05-13 13:19:26.344] [calContacts] [info] apidata.googleusercontent.com/caldav/v2/adamlipowski1988%40gmail.com/events/
+21897 [2020-05-13 13:19:26.344] [calContacts] [info]   remote: 207 etags
+21897 [2020-05-13 13:19:26.344] [calContacts] [info]    local: 0 etags
+21897 [2020-05-13 13:19:26.344] [calContacts] [info]  deleted: 0
+21897 [2020-05-13 13:19:26.344] [calContacts] [info]   needed: 207
+21897 [2020-05-13 13:19:26.545] [background] [info] - remote=3038, local=1
+21897 [2020-05-13 13:19:26.712] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (145216 microseconds, 10 waiting to aquire)
+21897 [2020-05-13 13:19:29.322] [calContacts] [warning] [SLOW] Transaction=runForCalendar:insertions > 60ms (77446 microseconds, 4578 waiting to aquire)
+21897 [2020-05-13 13:19:29.338] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (88521 microseconds, 82126 waiting to aquire)
+21897 [2020-05-13 13:19:31.345] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (64325 microseconds, 21 waiting to aquire)
+21897 [2020-05-13 13:19:34.778] [calContacts] [info] apidata.googleusercontent.com/caldav/v2/c5i68sj5edpm4rrfdchm6rreehgm6t3j81jn4rrle0n7cbj3c5m6arj4c5p2sprfdtjmop9ecdnmq%40virtual/events/
+21897 [2020-05-13 13:19:34.778] [calContacts] [info]   remote: 1 etags
+21897 [2020-05-13 13:19:34.778] [calContacts] [info]    local: 0 etags
+21897 [2020-05-13 13:19:34.778] [calContacts] [info]  deleted: 0
+21897 [2020-05-13 13:19:34.778] [calContacts] [info]   needed: 1
+21897 [2020-05-13 13:19:35.207] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (67999 microseconds, 71 waiting to aquire)
+21897 [2020-05-13 13:19:36.228] [calContacts] [info] apidata.googleusercontent.com/caldav/v2/cdpisorqclhmg8r8dtm6ip31f506esjfelo2sthecdgmopbechgn4bj7dtnmer355phmur8%40virtual/events/
+21897 [2020-05-13 13:19:36.228] [calContacts] [info]   remote: 1 etags
+21897 [2020-05-13 13:19:36.228] [calContacts] [info]    local: 0 etags
+21897 [2020-05-13 13:19:36.228] [calContacts] [info]  deleted: 0
+21897 [2020-05-13 13:19:36.228] [calContacts] [info]   needed: 1
+21897 [2020-05-13 13:19:36.456] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (158006 microseconds, 18 waiting to aquire)
+21897 [2020-05-13 13:19:37.911] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (140849 microseconds, 29 waiting to aquire)
+21897 [2020-05-13 13:19:39.845] [calContacts] [info] MisAPB3nNAAAABII_bSdjNyw6QIQ_bSdjNyw6QJqlOze3qQvnHZoCb81kRw4OiRlYjBiOTdhOC0wYWM3LTQ2ZDAtOTljMC01YTA1NmYwMjEzYjI
+21897 [2020-05-13 13:19:40.187] [background] [warning] [SLOW] Transaction=insertMessage:contacts > 60ms (110698 microseconds, 98 waiting to aquire)
+21897 [2020-05-13 13:19:41.350] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (67626 microseconds, 22 waiting to aquire)
+21897 [2020-05-13 13:19:42.301] [calContacts] [info] EOWvvI3csOkC
+21897 [2020-05-13 13:19:44.747] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (139909 microseconds, 15 waiting to aquire)
+21897 [2020-05-13 13:19:45.403] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (136690 microseconds, 10 waiting to aquire)
+21897 [2020-05-13 13:19:48.031] [main] [info] [local-4b13d2a1-25c5] Running ChangeUnreadTask performLocal:
+21897 [2020-05-13 13:19:48.081] [main] [info] [local-4b13d2a1-25c5] -- Succeeded. Changing status to `remote`
+21897 [2020-05-13 13:19:48.419] [foreground] [info] Idle exited with code 0
+21897 [2020-05-13 13:19:48.420] [foreground] [info] [local-4b13d2a1-25c5] Running ChangeUnreadTask performRemote:
+21897 [2020-05-13 13:19:48.704] [foreground] [info] [local-4b13d2a1-25c5] -- Succeeded. Changing status to `complete`
+21897 [2020-05-13 13:19:48.756] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810067 to 810107, uidnext 9431 to 9431
+21897 [2020-05-13 13:19:48.823] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 810067: 1 changed, 0 vanished
+21897 [2020-05-13 13:19:48.942] [foreground] [warning] [SLOW] Transaction=syncMessageBodies > 60ms (74721 microseconds, 54889 waiting to aquire)
+21897 [2020-05-13 13:19:49.290] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (74507 microseconds, 64462 waiting to aquire)
+21897 [2020-05-13 13:19:49.942] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (84107 microseconds, 78994 waiting to aquire)
+21897 [2020-05-13 13:19:51.053] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (115619 microseconds, 45 waiting to aquire)
+21897 [2020-05-13 13:19:51.075] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (100337 microseconds, 80130 waiting to aquire)
+21897 [2020-05-13 13:19:51.764] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (95394 microseconds, 86536 waiting to aquire)
+21897 [2020-05-13 13:19:53.050] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+21897 [2020-05-13 13:19:56.548] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 3681 - 3680, Heavy: false
+21897 [2020-05-13 13:19:57.641] [main] [info] [local-1b9f00e6-44e2] Running SyncbackDraftTask performLocal:
+21897 [2020-05-13 13:19:57.643] [main] [info] [local-1b9f00e6-44e2] -- Succeeded. Changing status to `remote`
+21897 [2020-05-13 13:19:57.983] [foreground] [info] Idle exited with code 0
+21897 [2020-05-13 13:19:57.984] [foreground] [info] [local-1b9f00e6-44e2] Running SyncbackDraftTask performRemote:
+21897 [2020-05-13 13:19:57.984] [foreground] [info] [local-1b9f00e6-44e2] -- Succeeded. Changing status to `complete`
+21897 [2020-05-13 13:19:57.997] [background] [info] - remote=3730, local=3730
+21897 [2020-05-13 13:19:58.025] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810107 to 810135, uidnext 9431 to 9431
+21897 [2020-05-13 13:19:58.072] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 810107: 0 changed, 0 vanished
+21897 [2020-05-13 13:19:58.172] [background] [info] Body for 30 messages already being fetched.
+21897 [2020-05-13 13:19:58.234] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 0, Heavy: false
+21897 [2020-05-13 13:19:58.318] [background] [info] - remote=0, local=0
+21897 [2020-05-13 13:19:58.357] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+21897 [2020-05-13 13:19:58.451] [background] [info] - remote=1, local=1
+21897 [2020-05-13 13:19:58.453] [background] [info] Sync loop deleting unlinked messages with phase 1.
+21897 [2020-05-13 13:19:58.457] [background] [info] Sync loop complete.
+21897 [2020-05-13 13:19:58.457] [background] [info] Syncing folder list...
+21897 [2020-05-13 13:19:58.536] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 1 - 3681, Heavy: true
+21897 [2020-05-13 13:20:02.321] [background] [info] - remote=1344, local=0
+21897 [2020-05-13 13:20:02.470] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (142860 microseconds, 137370 waiting to aquire)
+21897 [2020-05-13 13:20:03.353] [foreground] [warning] [SLOW] Transaction=retrievedMessageBody > 60ms (63189 microseconds, 56871 waiting to aquire)
+21897 [2020-05-13 13:20:03.690] [background] [warning] [SLOW] Transaction=insertMessage > 60ms (111552 microseconds, 51 waiting to aquire)
+21897 [2020-05-13 13:20:05.588] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+21897 [2020-05-13 13:20:07.727] [background] [info] - Updating message q8zcP6i11h6Zo69fQ8jfB9wP6fR7Vd7caigjtq8sp
+21897 [2020-05-13 13:20:07.727] [background] [info] -- UID (2289 to 2288)
+21897 [2020-05-13 13:20:14.167] [background] [info] Cleaning local cache and updating stats
+21897 [2020-05-13 13:20:14.208] [background] [info] -- 0 message bodies deleted from local cache.
+21897 [2020-05-13 13:20:14.300] [background] [info] Sync loop deleting unlinked messages with phase 2.
+21897 [2020-05-13 13:20:14.312] [background] [info] Sync loop complete.
+21897 [2020-05-13 13:20:14.312] [background] [info] Syncing folder list...
+21897 [2020-05-13 13:20:14.409] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 1 - 0, Heavy: false
+21897 [2020-05-13 13:20:16.314] [background] [info] - remote=5074, local=5073
+21897 [2020-05-13 13:20:16.414] [background] [info] - Fetching full headers for 1 (of 1 needed)
+21897 [2020-05-13 13:20:16.496] [background] [info] - Updating message q8zcP6i11h6Zo69fQ8jfB9wP6fR7Vd7caigjtq8sp
+21897 [2020-05-13 13:20:16.496] [background] [info] -- UID (2288 to 2289)
+21897 [2020-05-13 13:20:19.048] [background] [info] Sync loop deleting unlinked messages with phase 1.
+21897 [2020-05-13 13:20:19.055] [background] [info] Sync loop complete.
+21897 [2020-05-13 13:20:19.056] [background] [info] Syncing folder list...
+21897 [2020-05-13 13:20:20.453] [background] [info] Sync loop deleting unlinked messages with phase 2.
+21897 [2020-05-13 13:20:20.463] [background] [info] Sync loop complete.
+21897 [2020-05-13 13:20:20.464] [background] [info] Syncing folder list...
+21897 [2020-05-13 13:20:20.661] [background] [info] Sync loop deleting unlinked messages with phase 1.
+21897 [2020-05-13 13:20:20.670] [background] [info] Sync loop complete.
+21897 [2020-05-13 13:20:21.113] [main] [info] [local-11616916-9bf6] Running SyncbackDraftTask performLocal:
+21897 [2020-05-13 13:20:21.116] [main] [info] [local-11616916-9bf6] -- Succeeded. Changing status to `remote`
+21897 [2020-05-13 13:20:21.456] [foreground] [info] Idle exited with code 0
+21897 [2020-05-13 13:20:21.458] [foreground] [info] [local-11616916-9bf6] Running SyncbackDraftTask performRemote:
+21897 [2020-05-13 13:20:21.458] [foreground] [info] [local-11616916-9bf6] -- Succeeded. Changing status to `complete`
+21897 [2020-05-13 13:20:21.496] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810135 to 810135, uidnext 9431 to 9431
+21897 [2020-05-13 13:20:21.549] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+21897 [2020-05-13 13:20:22.121] [metadataExpiration] [info] Scanning for expired metadata
+21897 [2020-05-13 13:20:22.122] [metadataExpiration] [info] -- Will wake for next expiration in 5sec
+21897 [2020-05-13 13:20:28.003] [metadataExpiration] [info] Scanning for expired metadata
+21897 [2020-05-13 13:20:28.005] [metadataExpiration] [info] -- Sending expiration event for Message gkH3GyuSera8mMbYwekULy9RQaJZfEcK54Bf5MmVa
+21897 [2020-05-13 13:20:28.006] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+23098 [2020-05-13 13:20:35.624] [main] [info] Identity created at 1583930125 - using ID Schema 1
+23098 [2020-05-13 13:20:35.627] [main] [info] ------------- Starting Sync (adamlipowski1988@gmail.com) ---------------
+23098 [2020-05-13 13:20:35.637] [metadata] [info] Metadata delta stream starting...
+23098 [2020-05-13 13:20:39.634] [background] [info] Fetching XOAuth2 access token from Gmail for abe426a3
+23098 [2020-05-13 13:20:39.858] [background] [info] Marking all folders as `busy`
+23098 [2020-05-13 13:20:39.859] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:20:40.287] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:20:40.495] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23098 [2020-05-13 13:20:40.498] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:20:40.726] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810135 to 810135, uidnext 9431 to 9431
+23098 [2020-05-13 13:20:40.831] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:20:49.602] [main] [info] [local-1402db93-aec8] Running SyncbackDraftTask performLocal:
+23098 [2020-05-13 13:20:49.606] [main] [info] [local-1402db93-aec8] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:20:49.949] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:20:49.952] [foreground] [info] [local-1402db93-aec8] Running SyncbackDraftTask performRemote:
+23098 [2020-05-13 13:20:49.952] [foreground] [info] [local-1402db93-aec8] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:20:49.997] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810135 to 810135, uidnext 9431 to 9431
+23098 [2020-05-13 13:20:50.039] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:20:50.637] [metadataExpiration] [info] Scanning for expired metadata
+23098 [2020-05-13 13:20:50.638] [metadataExpiration] [info] -- Sending expiration event for Message gkH3GyuSera8mMbYwekULy9RQaJZfEcK54Bf5MmVa
+23098 [2020-05-13 13:20:50.639] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+23098 [2020-05-13 13:20:51.149] [main] [info] [local-298af108-dc8e] Running SyncbackDraftTask performLocal:
+23098 [2020-05-13 13:20:51.152] [main] [info] [local-298af108-dc8e] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:20:51.170] [main] [info] [local-b1dd054e-8d91] Running SendDraftTask performLocal:
+23098 [2020-05-13 13:20:51.171] [main] [info] [local-b1dd054e-8d91] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:20:51.492] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:20:51.494] [foreground] [info] [local-298af108-dc8e] Running SyncbackDraftTask performRemote:
+23098 [2020-05-13 13:20:51.494] [foreground] [info] [local-298af108-dc8e] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:20:51.495] [foreground] [info] [local-b1dd054e-8d91] Running SendDraftTask performRemote:
+23098 [2020-05-13 13:20:51.497] [foreground] [info] - Sending draft 57CAED19-882E-44C7-B0C1-DB136009052E@getmailspring.com
+23098 [2020-05-13 13:20:51.499] [foreground] [info] -- Identified `sent` folder: [Gmail]/Odeslan&AOE- po&AWE-ta
+23098 [2020-05-13 13:20:51.500] [foreground] [info] -- Sending customized message bodies to each recipient:
+23098 [2020-05-13 13:20:51.500] [foreground] [info] --- Sending to adam.lipowski@email.cz
+23098 [2020-05-13 13:20:52.765] [foreground] [info] -- Deleting 1 messages added to [Gmail]/Odeslan&AOE- po&AWE-ta by the SMTP gateway.
+23098 [2020-05-13 13:20:53.113] [foreground] [info] -- removeMessages Expunging (Basic) from [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:20:53.349] [foreground] [info] -- Deleting 1 messages just moved to [Gmail]/V&AWE-echny zpr&AOE-vy by the SMTP gateway.
+23098 [2020-05-13 13:20:53.709] [foreground] [info] -- removeMessages re-applying deleted flag after moving to [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:20:54.056] [foreground] [info] -- removeMessages Expunging (UIDs) from [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:20:54.231] [foreground] [info] -- Placing a new message with `self` body in the sent folder.
+23098 [2020-05-13 13:20:54.755] [foreground] [info] -- Syncing sent message (UID 358) to the local mail store
+23098 [2020-05-13 13:20:54.877] [foreground] [info] -- Synced sent message (Sent UID 358 = Local ID YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4)
+23098 [2020-05-13 13:20:54.877] [foreground] [info] -- Queueing task to attach link-tracking draft metadata to new message.
+23098 [2020-05-13 13:20:54.877] [foreground] [info] [aiE6FgYuQsBMmgZcmhIcoQejCkFqD2GB0awCflUT] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:20:54.881] [foreground] [info] [aiE6FgYuQsBMmgZcmhIcoQejCkFqD2GB0awCflUT] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:20:54.881] [foreground] [info] -- Queueing task to attach open-tracking draft metadata to new message.
+23098 [2020-05-13 13:20:54.881] [foreground] [info] [BmtLqjLCqkCCYEJoMfEf59H282rcacTBmdaAmM3A] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:20:54.884] [foreground] [info] [BmtLqjLCqkCCYEJoMfEf59H282rcacTBmdaAmM3A] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:20:54.884] [foreground] [info] -- Queueing task to attach send-later draft metadata to new message.
+23098 [2020-05-13 13:20:54.884] [foreground] [info] [Ut1IVzUyCoDun9ji1Bk1B4qL5qbg12EKisg5S1si] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:20:54.887] [foreground] [info] [Ut1IVzUyCoDun9ji1Bk1B4qL5qbg12EKisg5S1si] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:20:54.888] [foreground] [info] [local-b1dd054e-8d91] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:20:54.889] [foreground] [info] [aiE6FgYuQsBMmgZcmhIcoQejCkFqD2GB0awCflUT] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:20:55.374] [main] [info] [local-4d0b45ed-990d] Running SendFeatureUsageEventTask performLocal:
+23098 [2020-05-13 13:20:55.374] [main] [info] [local-4d0b45ed-990d] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:20:55.380] [main] [info] [local-45eed44b-4d47] Running SendFeatureUsageEventTask performLocal:
+23098 [2020-05-13 13:20:55.380] [main] [info] [local-45eed44b-4d47] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:20:55.481] [foreground] [info] Syncback of metadata YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4:link-tracking = {"headerMessageId":"57CAED19-882E-44C7-B0C1-DB136009052E@getmailspring.com","objectType":"message","value":{"links":[{"click_count":0,"click_data":[],"redirect_url":"https://link.getmailspring.com/link/57CAED19-882E-44C7-B0C1-DB136009052E@getmailspring.com/0?redirect=https%3A%2F%2Fgetmailspring.com%2F","url":"https://getmailspring.com/"}],"tracked":true,"uid":"57CAED19-882E-44C7-B0C1-DB136009052E@getmailspring.com"},"version":1} succeeded.
+23098 [2020-05-13 13:20:55.481] [foreground] [info] [aiE6FgYuQsBMmgZcmhIcoQejCkFqD2GB0awCflUT] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:20:55.482] [foreground] [info] [BmtLqjLCqkCCYEJoMfEf59H282rcacTBmdaAmM3A] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:20:55.487] [metadata] [info] Received metadata V1 for (message - YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4)
+23098 [2020-05-13 13:20:55.487] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:20:56.036] [foreground] [info] Syncback of metadata YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4:open-tracking = {"headerMessageId":"57CAED19-882E-44C7-B0C1-DB136009052E@getmailspring.com","objectType":"message","value":{"open_count":0,"open_data":[],"uid":"57CAED19-882E-44C7-B0C1-DB136009052E@getmailspring.com"},"version":1} succeeded.
+23098 [2020-05-13 13:20:56.036] [foreground] [info] [BmtLqjLCqkCCYEJoMfEf59H282rcacTBmdaAmM3A] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:20:56.267] [foreground] [info] [Ut1IVzUyCoDun9ji1Bk1B4qL5qbg12EKisg5S1si] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:20:56.268] [metadata] [info] Received metadata V1 for (message - YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4)
+23098 [2020-05-13 13:20:56.268] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:20:56.268] [metadata] [warning] [SLOW] Transaction=applyMetadataJSON > 60ms (229854 microseconds, 229373 waiting to aquire)
+23098 [2020-05-13 13:20:56.293] [calContacts] [warning] [SLOW] Transaction=runForCalendar:deletions > 60ms (730330 microseconds, 730317 waiting to aquire)
+23098 [2020-05-13 13:20:56.786] [foreground] [info] Syncback of metadata YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4:send-later = {"headerMessageId":"57CAED19-882E-44C7-B0C1-DB136009052E@getmailspring.com","objectType":"message","value":{"expiration":null},"version":1} succeeded.
+23098 [2020-05-13 13:20:56.786] [foreground] [info] [Ut1IVzUyCoDun9ji1Bk1B4qL5qbg12EKisg5S1si] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:20:56.787] [foreground] [info] [local-4d0b45ed-990d] Running SendFeatureUsageEventTask performRemote:
+23098 [2020-05-13 13:20:56.787] [foreground] [info] Incrementing usage of feature: link-tracking
+23098 [2020-05-13 13:20:56.790] [metadata] [info] Received metadata V1 for (message - YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4)
+23098 [2020-05-13 13:20:56.790] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:20:57.333] [foreground] [info] Incrementing usage of feature succeeded: {"feature":"link-tracking","period":8,"success":true,"uses":1}
+23098 [2020-05-13 13:20:57.333] [foreground] [info] [local-4d0b45ed-990d] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:20:57.334] [foreground] [info] [local-45eed44b-4d47] Running SendFeatureUsageEventTask performRemote:
+23098 [2020-05-13 13:20:57.334] [foreground] [info] Incrementing usage of feature: open-tracking
+23098 [2020-05-13 13:20:57.860] [foreground] [info] Incrementing usage of feature succeeded: {"feature":"open-tracking","period":8,"success":true,"uses":1}
+23098 [2020-05-13 13:20:57.861] [foreground] [info] [local-45eed44b-4d47] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:20:57.915] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810135 to 810204, uidnext 9431 to 9433
+23098 [2020-05-13 13:20:58.055] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 810135: 1 changed, 0 vanished
+23098 [2020-05-13 13:20:58.058] [foreground] [info] - Updating message YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4
+23098 [2020-05-13 13:20:58.058] [foreground] [info] -- UID (358 to 9432)
+23098 [2020-05-13 13:20:58.058] [foreground] [info] -- FolderID (gKKMcL4HC22yHVomxq6SSTCekYKx5DKU3Aa6TPwrF to hQJbKThqfyKwG3TESbTxjTupXcnqTLnViwqgeiuBq)
+23098 [2020-05-13 13:20:58.058] [foreground] [info] -- XGMLabels ([] to ["\\Sent"])
+23098 [2020-05-13 13:20:58.096] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:20:58.749] [calContacts] [info] MisAPB3nNAAAABII_bSdjNyw6QIQ_bSdjNyw6QJqlOze3qQvnHZoCb81kRw4OiRlYjBiOTdhOC0wYWM3LTQ2ZDAtOTljMC01YTA1NmYwMjEzYjI
+23098 [2020-05-13 13:21:00.918] [calContacts] [info] EPL2-rLcsOkC
+23098 [2020-05-13 13:21:05.871] [main] [info] [local-9fbc5d9c-9d36] Running SyncbackDraftTask performLocal:
+23098 [2020-05-13 13:21:05.877] [main] [info] [local-9fbc5d9c-9d36] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:21:06.214] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:21:06.217] [foreground] [info] [local-9fbc5d9c-9d36] Running SyncbackDraftTask performRemote:
+23098 [2020-05-13 13:21:06.217] [foreground] [info] [local-9fbc5d9c-9d36] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:21:06.254] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810204 to 810204, uidnext 9433 to 9433
+23098 [2020-05-13 13:21:06.282] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:21:06.878] [metadataExpiration] [info] Scanning for expired metadata
+23098 [2020-05-13 13:21:06.879] [metadataExpiration] [info] -- Will wake for next expiration in 5sec
+23098 [2020-05-13 13:21:11.398] [metadata] [info] Received metadata V2 for (message - YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4)
+23098 [2020-05-13 13:21:11.398] [metadata] [info]  -- Saved on to local model.
+23098 [2020-05-13 13:21:12.005] [metadataExpiration] [info] Scanning for expired metadata
+23098 [2020-05-13 13:21:12.008] [metadataExpiration] [info] -- Sending expiration event for Message ifbMbwRnNSVmMLdUgSBJYvQ1bL1dtkVqiQudPaQB5
+23098 [2020-05-13 13:21:12.010] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+23098 [2020-05-13 13:21:12.517] [main] [info] [local-55138e7d-1aa2] Running SyncbackDraftTask performLocal:
+23098 [2020-05-13 13:21:12.522] [main] [info] [local-55138e7d-1aa2] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:21:12.705] [main] [info] [local-8e226c53-b71f] Running SendDraftTask performLocal:
+23098 [2020-05-13 13:21:12.707] [main] [info] [local-8e226c53-b71f] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:21:12.865] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:21:12.868] [foreground] [info] [local-55138e7d-1aa2] Running SyncbackDraftTask performRemote:
+23098 [2020-05-13 13:21:12.868] [foreground] [info] [local-55138e7d-1aa2] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:21:12.869] [foreground] [info] [local-8e226c53-b71f] Running SendDraftTask performRemote:
+23098 [2020-05-13 13:21:12.872] [foreground] [info] - Sending draft E52E6EB6-323E-4E05-B557-6D02CC9E10DF@getmailspring.com
+23098 [2020-05-13 13:21:12.873] [foreground] [info] -- Identified `sent` folder: [Gmail]/Odeslan&AOE- po&AWE-ta
+23098 [2020-05-13 13:21:12.873] [foreground] [info] -- Sending customized message bodies to each recipient:
+23098 [2020-05-13 13:21:12.873] [foreground] [info] --- Sending to adam.lipowski@email.cz
+23098 [2020-05-13 13:21:14.060] [foreground] [info] -- Deleting 1 messages added to [Gmail]/Odeslan&AOE- po&AWE-ta by the SMTP gateway.
+23098 [2020-05-13 13:21:14.303] [foreground] [info] -- removeMessages Expunging (Basic) from [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:21:14.561] [foreground] [info] -- Deleting 1 messages just moved to [Gmail]/V&AWE-echny zpr&AOE-vy by the SMTP gateway.
+23098 [2020-05-13 13:21:14.989] [foreground] [info] -- removeMessages re-applying deleted flag after moving to [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:21:15.248] [foreground] [info] -- removeMessages Expunging (UIDs) from [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:21:15.463] [foreground] [info] -- Placing a new message with `self` body in the sent folder.
+23098 [2020-05-13 13:21:16.060] [foreground] [info] -- Syncing sent message (UID 360) to the local mail store
+23098 [2020-05-13 13:21:16.172] [foreground] [info] -- Synced sent message (Sent UID 360 = Local ID L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b)
+23098 [2020-05-13 13:21:16.172] [foreground] [info] -- Queueing task to attach link-tracking draft metadata to new message.
+23098 [2020-05-13 13:21:16.173] [foreground] [info] [D7Jx0avh692aY90pd9AZgMAPpPBIXJCpDbMAb6H5] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:21:16.176] [foreground] [info] [D7Jx0avh692aY90pd9AZgMAPpPBIXJCpDbMAb6H5] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:21:16.177] [foreground] [info] -- Queueing task to attach open-tracking draft metadata to new message.
+23098 [2020-05-13 13:21:16.177] [foreground] [info] [5z3Sv27yXwn47LHmq9SeGir0j4yiY6aSs4zNSv0G] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:21:16.182] [foreground] [info] [5z3Sv27yXwn47LHmq9SeGir0j4yiY6aSs4zNSv0G] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:21:16.182] [foreground] [info] -- Queueing task to attach send-later draft metadata to new message.
+23098 [2020-05-13 13:21:16.183] [foreground] [info] [PkxLW5Va2CexKtuSmS10O2P7SeIAxH5cQsMCmxCd] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:21:16.187] [foreground] [info] [PkxLW5Va2CexKtuSmS10O2P7SeIAxH5cQsMCmxCd] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:21:16.188] [foreground] [info] [local-8e226c53-b71f] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:21:16.190] [foreground] [info] [D7Jx0avh692aY90pd9AZgMAPpPBIXJCpDbMAb6H5] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:21:16.711] [main] [info] [local-6dd983eb-9239] Running SendFeatureUsageEventTask performLocal:
+23098 [2020-05-13 13:21:16.712] [main] [info] [local-6dd983eb-9239] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:21:16.722] [main] [info] [local-1b5e44d8-23c9] Running SendFeatureUsageEventTask performLocal:
+23098 [2020-05-13 13:21:16.723] [main] [info] [local-1b5e44d8-23c9] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:21:16.763] [foreground] [info] Syncback of metadata L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b:link-tracking = {"headerMessageId":"E52E6EB6-323E-4E05-B557-6D02CC9E10DF@getmailspring.com","objectType":"message","value":{"links":[{"click_count":0,"click_data":[],"redirect_url":"https://link.getmailspring.com/link/E52E6EB6-323E-4E05-B557-6D02CC9E10DF@getmailspring.com/0?redirect=https%3A%2F%2Fgetmailspring.com%2F","url":"https://getmailspring.com/"}],"tracked":true,"uid":"E52E6EB6-323E-4E05-B557-6D02CC9E10DF@getmailspring.com"},"version":1} succeeded.
+23098 [2020-05-13 13:21:16.764] [foreground] [info] [D7Jx0avh692aY90pd9AZgMAPpPBIXJCpDbMAb6H5] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:21:16.765] [foreground] [info] [5z3Sv27yXwn47LHmq9SeGir0j4yiY6aSs4zNSv0G] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:21:16.769] [metadata] [info] Received metadata V1 for (message - L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b)
+23098 [2020-05-13 13:21:16.769] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:21:17.342] [foreground] [info] Syncback of metadata L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b:open-tracking = {"headerMessageId":"E52E6EB6-323E-4E05-B557-6D02CC9E10DF@getmailspring.com","objectType":"message","value":{"open_count":0,"open_data":[],"uid":"E52E6EB6-323E-4E05-B557-6D02CC9E10DF@getmailspring.com"},"version":1} succeeded.
+23098 [2020-05-13 13:21:17.342] [foreground] [info] [5z3Sv27yXwn47LHmq9SeGir0j4yiY6aSs4zNSv0G] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:21:17.343] [foreground] [info] [PkxLW5Va2CexKtuSmS10O2P7SeIAxH5cQsMCmxCd] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:21:17.347] [metadata] [info] Received metadata V1 for (message - L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b)
+23098 [2020-05-13 13:21:17.347] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:21:17.845] [foreground] [info] Syncback of metadata L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b:send-later = {"headerMessageId":"E52E6EB6-323E-4E05-B557-6D02CC9E10DF@getmailspring.com","objectType":"message","value":{"expiration":null},"version":1} succeeded.
+23098 [2020-05-13 13:21:17.845] [foreground] [info] [PkxLW5Va2CexKtuSmS10O2P7SeIAxH5cQsMCmxCd] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:21:17.847] [foreground] [info] [local-6dd983eb-9239] Running SendFeatureUsageEventTask performRemote:
+23098 [2020-05-13 13:21:17.847] [foreground] [info] Incrementing usage of feature: link-tracking
+23098 [2020-05-13 13:21:17.858] [metadata] [info] Received metadata V1 for (message - L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b)
+23098 [2020-05-13 13:21:17.858] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:21:18.372] [foreground] [info] Incrementing usage of feature succeeded: {"feature":"link-tracking","period":8,"success":true,"uses":2}
+23098 [2020-05-13 13:21:18.372] [foreground] [info] [local-6dd983eb-9239] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:21:18.372] [foreground] [info] [local-1b5e44d8-23c9] Running SendFeatureUsageEventTask performRemote:
+23098 [2020-05-13 13:21:18.372] [foreground] [info] Incrementing usage of feature: open-tracking
+23098 [2020-05-13 13:21:18.926] [foreground] [info] Incrementing usage of feature succeeded: {"feature":"open-tracking","period":8,"success":true,"uses":2}
+23098 [2020-05-13 13:21:18.926] [foreground] [info] [local-1b5e44d8-23c9] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:21:18.980] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810204 to 810267, uidnext 9433 to 9435
+23098 [2020-05-13 13:21:19.102] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 810204: 1 changed, 0 vanished
+23098 [2020-05-13 13:21:19.103] [foreground] [info] - Updating message L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b
+23098 [2020-05-13 13:21:19.103] [foreground] [info] -- UID (360 to 9434)
+23098 [2020-05-13 13:21:19.103] [foreground] [info] -- FolderID (gKKMcL4HC22yHVomxq6SSTCekYKx5DKU3Aa6TPwrF to hQJbKThqfyKwG3TESbTxjTupXcnqTLnViwqgeiuBq)
+23098 [2020-05-13 13:21:19.103] [foreground] [info] -- XGMLabels ([] to ["\\Sent"])
+23098 [2020-05-13 13:21:19.139] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:21:25.991] [metadata] [info] Received metadata V2 for (message - L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b)
+23098 [2020-05-13 13:21:25.991] [metadata] [info]  -- Saved on to local model.
+23098 [2020-05-13 13:21:41.906] [metadata] [info] Received metadata V3 for (message - YHiDmbnxXFMGRCC7F1vAyZCEqNsGCE3nEjQACJQZ4)
+23098 [2020-05-13 13:21:41.906] [metadata] [info]  -- Saved on to local model.
+23098 [2020-05-13 13:21:46.111] [metadata] [info] Received metadata V3 for (message - L1zoov2tP5R1An4aQWM8bT1YfmpCm6kv4y2x6od5b)
+23098 [2020-05-13 13:21:46.111] [metadata] [info]  -- Saved on to local model.
+23098 [2020-05-13 13:22:40.500] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:22:40.625] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9005 - 9435, Heavy: false
+23098 [2020-05-13 13:22:40.866] [background] [info] - remote=400, local=400
+23098 [2020-05-13 13:22:40.958] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 652 - 654, Heavy: true
+23098 [2020-05-13 13:22:41.042] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:22:41.042] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 654, Heavy: false
+23098 [2020-05-13 13:22:41.083] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:22:41.126] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+23098 [2020-05-13 13:22:41.222] [background] [info] - remote=1, local=1
+23098 [2020-05-13 13:22:41.224] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23098 [2020-05-13 13:22:41.234] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:24:03.926] [main] [info] [local-04828935-8754] Running SyncbackDraftTask performLocal:
+23098 [2020-05-13 13:24:03.928] [main] [info] [local-04828935-8754] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:04.271] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:24:04.276] [foreground] [info] [local-04828935-8754] Running SyncbackDraftTask performRemote:
+23098 [2020-05-13 13:24:04.276] [foreground] [info] [local-04828935-8754] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:04.320] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810267 to 810267, uidnext 9435 to 9435
+23098 [2020-05-13 13:24:04.402] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:24:19.557] [main] [info] [local-759f58c2-a9c6] Running SyncbackDraftTask performLocal:
+23098 [2020-05-13 13:24:19.560] [main] [info] [local-759f58c2-a9c6] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:19.911] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:24:19.914] [foreground] [info] [local-759f58c2-a9c6] Running SyncbackDraftTask performRemote:
+23098 [2020-05-13 13:24:19.914] [foreground] [info] [local-759f58c2-a9c6] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:19.980] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810267 to 810267, uidnext 9435 to 9435
+23098 [2020-05-13 13:24:20.008] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:24:20.569] [metadataExpiration] [info] Scanning for expired metadata
+23098 [2020-05-13 13:24:20.569] [metadataExpiration] [info] -- Will wake for next expiration in 5sec
+23098 [2020-05-13 13:24:26.005] [metadataExpiration] [info] Scanning for expired metadata
+23098 [2020-05-13 13:24:26.010] [metadataExpiration] [info] -- Sending expiration event for Message J3wA99LFa5V4sQTfwjEMFfm2as3RQtV4HCMG5tbsC
+23098 [2020-05-13 13:24:26.012] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+23098 [2020-05-13 13:24:26.516] [main] [info] [local-933de0c8-fd42] Running SyncbackDraftTask performLocal:
+23098 [2020-05-13 13:24:26.520] [main] [info] [local-933de0c8-fd42] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:26.540] [main] [info] [local-034f41e6-2b9d] Running SendDraftTask performLocal:
+23098 [2020-05-13 13:24:26.543] [main] [info] [local-034f41e6-2b9d] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:26.862] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:24:26.864] [foreground] [info] [local-933de0c8-fd42] Running SyncbackDraftTask performRemote:
+23098 [2020-05-13 13:24:26.864] [foreground] [info] [local-933de0c8-fd42] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:26.865] [foreground] [info] [local-034f41e6-2b9d] Running SendDraftTask performRemote:
+23098 [2020-05-13 13:24:26.868] [foreground] [info] - Sending draft DA967114-8950-4192-8573-F7BAF31194A9@getmailspring.com
+23098 [2020-05-13 13:24:26.869] [foreground] [info] -- Identified `sent` folder: [Gmail]/Odeslan&AOE- po&AWE-ta
+23098 [2020-05-13 13:24:26.870] [foreground] [info] -- Sending customized message bodies to each recipient:
+23098 [2020-05-13 13:24:26.870] [foreground] [info] --- Sending to adam.lipowski@email.cz
+23098 [2020-05-13 13:24:28.289] [foreground] [info] -- Deleting 1 messages added to [Gmail]/Odeslan&AOE- po&AWE-ta by the SMTP gateway.
+23098 [2020-05-13 13:24:28.777] [foreground] [info] -- removeMessages Expunging (Basic) from [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:24:29.044] [foreground] [info] -- Deleting 1 messages just moved to [Gmail]/V&AWE-echny zpr&AOE-vy by the SMTP gateway.
+23098 [2020-05-13 13:24:29.427] [foreground] [info] -- removeMessages re-applying deleted flag after moving to [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:24:29.678] [foreground] [info] -- removeMessages Expunging (UIDs) from [Gmail]/Ko&AWE-
+23098 [2020-05-13 13:24:29.864] [foreground] [info] -- Placing a new message with `self` body in the sent folder.
+23098 [2020-05-13 13:24:30.384] [foreground] [info] -- Syncing sent message (UID 362) to the local mail store
+23098 [2020-05-13 13:24:30.507] [foreground] [info] -- Synced sent message (Sent UID 362 = Local ID XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM)
+23098 [2020-05-13 13:24:30.507] [foreground] [info] -- Queueing task to attach link-tracking draft metadata to new message.
+23098 [2020-05-13 13:24:30.507] [foreground] [info] [KtT45qzx964wOt75zmOWXls07FpDpM317LR13en1] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:24:30.513] [foreground] [info] [KtT45qzx964wOt75zmOWXls07FpDpM317LR13en1] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:30.513] [foreground] [info] -- Queueing task to attach open-tracking draft metadata to new message.
+23098 [2020-05-13 13:24:30.514] [foreground] [info] [aelOxfGVpiHbuX9qtlRIYKwUjbIbgT1eY0Qjcl5s] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:24:30.519] [foreground] [info] [aelOxfGVpiHbuX9qtlRIYKwUjbIbgT1eY0Qjcl5s] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:30.519] [foreground] [info] -- Queueing task to attach send-later draft metadata to new message.
+23098 [2020-05-13 13:24:30.519] [foreground] [info] [tAtNnp2GAJdohx9qxEqDogFcdllfwgxOGOpR4hou] Running SyncbackMetadataTask performLocal:
+23098 [2020-05-13 13:24:30.537] [foreground] [info] [tAtNnp2GAJdohx9qxEqDogFcdllfwgxOGOpR4hou] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:30.544] [foreground] [info] [local-034f41e6-2b9d] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:30.548] [foreground] [info] [KtT45qzx964wOt75zmOWXls07FpDpM317LR13en1] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:24:31.023] [main] [info] [local-3ed0bc82-6129] Running SendFeatureUsageEventTask performLocal:
+23098 [2020-05-13 13:24:31.024] [main] [info] [local-3ed0bc82-6129] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:31.037] [main] [info] [local-08f64047-510d] Running SendFeatureUsageEventTask performLocal:
+23098 [2020-05-13 13:24:31.038] [main] [info] [local-08f64047-510d] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:24:31.175] [metadata] [info] Received metadata V1 for (message - XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM)
+23098 [2020-05-13 13:24:31.175] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:24:31.175] [foreground] [info] Syncback of metadata XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM:link-tracking = {"headerMessageId":"DA967114-8950-4192-8573-F7BAF31194A9@getmailspring.com","objectType":"message","value":{"links":[],"tracked":true,"uid":"DA967114-8950-4192-8573-F7BAF31194A9@getmailspring.com"},"version":1} succeeded.
+23098 [2020-05-13 13:24:31.175] [foreground] [info] [KtT45qzx964wOt75zmOWXls07FpDpM317LR13en1] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:31.176] [foreground] [info] [aelOxfGVpiHbuX9qtlRIYKwUjbIbgT1eY0Qjcl5s] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:24:31.701] [foreground] [info] Syncback of metadata XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM:open-tracking = {"headerMessageId":"DA967114-8950-4192-8573-F7BAF31194A9@getmailspring.com","objectType":"message","value":{"open_count":0,"open_data":[],"uid":"DA967114-8950-4192-8573-F7BAF31194A9@getmailspring.com"},"version":1} succeeded.
+23098 [2020-05-13 13:24:31.701] [foreground] [info] [aelOxfGVpiHbuX9qtlRIYKwUjbIbgT1eY0Qjcl5s] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:31.701] [foreground] [info] [tAtNnp2GAJdohx9qxEqDogFcdllfwgxOGOpR4hou] Running SyncbackMetadataTask performRemote:
+23098 [2020-05-13 13:24:31.713] [metadata] [info] Received metadata V1 for (message - XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM)
+23098 [2020-05-13 13:24:31.713] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:24:32.210] [foreground] [info] Syncback of metadata XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM:send-later = {"headerMessageId":"DA967114-8950-4192-8573-F7BAF31194A9@getmailspring.com","objectType":"message","value":{"expiration":null},"version":1} succeeded.
+23098 [2020-05-13 13:24:32.210] [foreground] [info] [tAtNnp2GAJdohx9qxEqDogFcdllfwgxOGOpR4hou] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:32.211] [foreground] [info] [local-3ed0bc82-6129] Running SendFeatureUsageEventTask performRemote:
+23098 [2020-05-13 13:24:32.211] [foreground] [info] Incrementing usage of feature: link-tracking
+23098 [2020-05-13 13:24:32.224] [metadata] [info] Received metadata V1 for (message - XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM)
+23098 [2020-05-13 13:24:32.224] [metadata] [info]  -- Ignored. Local model has >= version.
+23098 [2020-05-13 13:24:32.750] [foreground] [info] Incrementing usage of feature succeeded: {"feature":"link-tracking","period":8,"success":true,"uses":3}
+23098 [2020-05-13 13:24:32.750] [foreground] [info] [local-3ed0bc82-6129] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:32.750] [foreground] [info] [local-08f64047-510d] Running SendFeatureUsageEventTask performRemote:
+23098 [2020-05-13 13:24:32.750] [foreground] [info] Incrementing usage of feature: open-tracking
+23098 [2020-05-13 13:24:33.293] [foreground] [info] Incrementing usage of feature succeeded: {"feature":"open-tracking","period":8,"success":true,"uses":3}
+23098 [2020-05-13 13:24:33.293] [foreground] [info] [local-08f64047-510d] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:24:33.357] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810267 to 810328, uidnext 9435 to 9437
+23098 [2020-05-13 13:24:33.493] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 810267: 1 changed, 0 vanished
+23098 [2020-05-13 13:24:33.496] [foreground] [info] - Updating message XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM
+23098 [2020-05-13 13:24:33.496] [foreground] [info] -- UID (362 to 9436)
+23098 [2020-05-13 13:24:33.496] [foreground] [info] -- FolderID (gKKMcL4HC22yHVomxq6SSTCekYKx5DKU3Aa6TPwrF to hQJbKThqfyKwG3TESbTxjTupXcnqTLnViwqgeiuBq)
+23098 [2020-05-13 13:24:33.496] [foreground] [info] -- XGMLabels ([] to ["\\Sent"])
+23098 [2020-05-13 13:24:33.541] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:24:37.052] [metadata] [info] Received metadata V2 for (message - XyXhYMt1knRaJdTgJLdmFshQczP8a6sVuJtz6PxYM)
+23098 [2020-05-13 13:24:37.052] [metadata] [info]  -- Saved on to local model.
+23098 [2020-05-13 13:24:41.235] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:24:41.379] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9006 - 9437, Heavy: false
+23098 [2020-05-13 13:24:41.710] [background] [info] - remote=400, local=400
+23098 [2020-05-13 13:24:41.773] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 654 - 655, Heavy: true
+23098 [2020-05-13 13:24:41.904] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:24:41.946] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23098 [2020-05-13 13:24:41.954] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:26:15.638] [main] [info] [local-a0120b87-24af] Running SyncbackDraftTask performLocal:
+23098 [2020-05-13 13:26:15.641] [main] [info] [local-a0120b87-24af] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:26:15.983] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:26:15.987] [foreground] [info] [local-a0120b87-24af] Running SyncbackDraftTask performRemote:
+23098 [2020-05-13 13:26:15.987] [foreground] [info] [local-a0120b87-24af] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:26:16.030] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810328 to 810328, uidnext 9437 to 9437
+23098 [2020-05-13 13:26:16.087] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:26:18.010] [main] [info] [local-2e8b79c6-f3a6] Running DestroyDraftTask performLocal:
+23098 [2020-05-13 13:26:18.011] [main] [info] -- Hiding / detatching drafts while they're deleted...
+23098 [2020-05-13 13:26:18.017] [main] [info] -- Replacing local ID WzNDNhwTBqXfEYd6pWj8AaDembVc4fGERyX35UNof with deleted-G7eSp84KcqaARVBMlSpBedaehgVXPCAmyC3LAVjA
+23098 [2020-05-13 13:26:18.020] [main] [info] [local-2e8b79c6-f3a6] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:26:18.360] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:26:18.360] [foreground] [info] [local-2e8b79c6-f3a6] Running DestroyDraftTask performRemote:
+23098 [2020-05-13 13:26:18.361] [foreground] [info] [local-2e8b79c6-f3a6] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:26:18.409] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810328 to 810328, uidnext 9437 to 9437
+23098 [2020-05-13 13:26:18.483] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:26:39.752] [main] [info] [local-24fe438f-44f1] Running SendFeatureUsageEventTask performLocal:
+23098 [2020-05-13 13:26:39.753] [main] [info] [local-24fe438f-44f1] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:26:39.780] [main] [info] [local-8747f5ef-6290] Running SendFeatureUsageEventTask performLocal:
+23098 [2020-05-13 13:26:39.781] [main] [info] [local-8747f5ef-6290] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:26:40.136] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:26:40.138] [foreground] [info] [local-24fe438f-44f1] Running SendFeatureUsageEventTask performRemote:
+23098 [2020-05-13 13:26:40.138] [foreground] [info] Incrementing usage of feature: link-tracking
+23098 [2020-05-13 13:26:40.663] [foreground] [info] Incrementing usage of feature succeeded: {"feature":"link-tracking","period":8,"success":true,"uses":4}
+23098 [2020-05-13 13:26:40.663] [foreground] [info] [local-24fe438f-44f1] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:26:40.663] [foreground] [info] [local-8747f5ef-6290] Running SendFeatureUsageEventTask performRemote:
+23098 [2020-05-13 13:26:40.663] [foreground] [info] Incrementing usage of feature: open-tracking
+23098 [2020-05-13 13:26:41.215] [foreground] [info] Incrementing usage of feature succeeded: {"feature":"open-tracking","period":8,"success":true,"uses":4}
+23098 [2020-05-13 13:26:41.215] [foreground] [info] [local-8747f5ef-6290] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:26:41.263] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810328 to 810384, uidnext 9437 to 9438
+23098 [2020-05-13 13:26:41.331] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 810328: 1 changed, 0 vanished
+23098 [2020-05-13 13:26:41.441] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:26:41.955] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:26:42.051] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9007 - 9438, Heavy: false
+23098 [2020-05-13 13:26:42.387] [background] [info] - remote=400, local=400
+23098 [2020-05-13 13:26:42.468] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 654 - 655, Heavy: true
+23098 [2020-05-13 13:26:42.557] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:26:42.557] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 655, Heavy: false
+23098 [2020-05-13 13:26:42.598] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:26:42.643] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+23098 [2020-05-13 13:26:42.818] [background] [info] - remote=1, local=1
+23098 [2020-05-13 13:26:42.820] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23098 [2020-05-13 13:26:42.826] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:26:45.091] [main] [info] [local-cd0d0389-23db] Running ChangeUnreadTask performLocal:
+23098 [2020-05-13 13:26:45.117] [main] [info] [local-cd0d0389-23db] -- Succeeded. Changing status to `remote`
+23098 [2020-05-13 13:26:45.457] [foreground] [info] Idle exited with code 0
+23098 [2020-05-13 13:26:45.460] [foreground] [info] [local-cd0d0389-23db] Running ChangeUnreadTask performRemote:
+23098 [2020-05-13 13:26:45.697] [foreground] [info] [local-cd0d0389-23db] -- Succeeded. Changing status to `complete`
+23098 [2020-05-13 13:26:45.745] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810384 to 810424, uidnext 9438 to 9438
+23098 [2020-05-13 13:26:45.806] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 810384: 1 changed, 0 vanished
+23098 [2020-05-13 13:26:45.837] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+23098 [2020-05-13 13:28:42.827] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:28:43.028] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 655, Heavy: false
+23098 [2020-05-13 13:28:43.128] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:28:43.187] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+23098 [2020-05-13 13:28:43.296] [background] [info] - remote=1, local=1
+23098 [2020-05-13 13:28:43.297] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23098 [2020-05-13 13:28:43.303] [background] [info] Sync loop complete.

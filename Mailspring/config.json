@@ -1,0 +1,198 @@
+{
+  "*": {
+    "env": "production",
+    "core": {
+      "themes": [
+        "ui-light"
+      ],
+      "disabledPackages": [
+        "message-view-on-github",
+        "personal-level-indicators",
+        "phishing-detection",
+        "nylas-private-salesforce",
+        "github-contact-card",
+        "keybase",
+        "composer-markdown",
+        "composer-scheduler",
+        "composer-mail-merge",
+        "send-and-archive",
+        "main-calendar"
+      ],
+      "workspace": {
+        "mode": "split"
+      },
+      "keymapTemplate": "Gmail",
+      "tutorial": {
+        "seen": [
+          "ThreadSearchBar",
+          "ActivityListButton"
+        ]
+      }
+    },
+    "identity": {
+      "id": "65f166ee-9295-4d12-9d1f-fc4ae35ad83e",
+      "firstName": "Adam",
+      "lastName": "Lipowski",
+      "emailAddress": "adam.lipowski@email.cz",
+      "object": "identity",
+      "createdAt": "2020-03-11T13:35:25.000Z",
+      "stripePlan": "Basic",
+      "stripePlanEffective": "Basic",
+      "stripeCustomerId": "cus_GtHHWWmqCzCHY1",
+      "stripePeriodEnd": "2020-06-11T13:35:24.000Z",
+      "featureUsage": {
+        "snooze": {
+          "quota": 15,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "send-later": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "thread-sharing": {
+          "quota": 3,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "link-tracking": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 4,
+          "featureLimitName": "basic-limit"
+        },
+        "open-tracking": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 4,
+          "featureLimitName": "basic-limit"
+        },
+        "contact-profiles": {
+          "quota": 3,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "send-reminders": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "translation": {
+          "quota": 50,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        }
+      }
+    },
+    "accounts": [
+      {
+        "id": "abe426a3",
+        "metadata": [],
+        "name": "Adam Lipowski",
+        "provider": "gmail",
+        "emailAddress": "adamlipowski1988@gmail.com",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "adamlipowski1988@gmail.com",
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_security": "STARTTLS",
+          "smtp_username": "adamlipowski1988@gmail.com"
+        },
+        "label": "gmail",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "authedAt": 1589368694.976,
+        "__cls": "Account"
+      },
+      {
+        "id": "7cd79e55",
+        "metadata": [],
+        "name": "Adam Lipowski",
+        "provider": "imap",
+        "emailAddress": "adam.lipowski@email.cz",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "imap.seznam.cz",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "adam.lipowski@email.cz",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "smtp.seznam.cz",
+          "smtp_port": 465,
+          "smtp_security": "SSL / TLS",
+          "smtp_username": "adam.lipowski@email.cz"
+        },
+        "label": "seznam",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "authedAt": 1589369148.334,
+        "__cls": "Account"
+      },
+      {
+        "id": "cccfdea3",
+        "metadata": [],
+        "name": "lipowada",
+        "provider": "imap",
+        "emailAddress": "lipowada@fel.cvut.cz",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "imap.feld.cvut.cz",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "lipowada",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "smtpx.feld.cvut.cz",
+          "smtp_port": 465,
+          "smtp_security": "SSL / TLS",
+          "smtp_username": "lipowada"
+        },
+        "label": "fel",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "authedAt": 1589369337.006,
+        "__cls": "Account"
+      }
+    ],
+    "accountsVersion": 12,
+    "signatures": {
+      "local-6cb3db70-70e5": {
+        "title": "Personal",
+        "id": "local-6cb3db70-70e5",
+        "body": "<table cellPadding=\"0\" cellSpacing=\"0\"><tbody><tr><td><div style=\"border-top:2px solid gray;padding-top:3px;margin-top:3px\">Adam Lipowski</div><div style=\"font-size:0.9em;min-width:250px;max-width:300px;margin-top:4px;padding-top:4px\"><div><div></div><div></div></div></div></td></tr></tbody></table>",
+        "data": {
+          "title": "Adam Lipowski",
+          "templateName": "SignatureD"
+        }
+      }
+    },
+    "defaultSignatures": {
+      "adamlipowski1988@gmail.com": "local-6cb3db70-70e5",
+      "adam.lipowski@email.cz": "local-6cb3db70-70e5"
+    }
+  }
+}
