@@ -25,7 +25,8 @@
       "tutorial": {
         "seen": [
           "ThreadSearchBar",
-          "ActivityListButton"
+          "ActivityListButton",
+          "ModeToggle"
         ]
       }
     },

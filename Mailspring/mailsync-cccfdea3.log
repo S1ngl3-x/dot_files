@@ -193,3 +193,227 @@
 26654 [2020-05-13 13:29:42.566] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
 26654 [2020-05-13 13:29:42.567] [background] [info] Sync loop deleting unlinked messages with phase 1.
 26654 [2020-05-13 13:29:42.568] [background] [info] Sync loop complete.
+26654 [2020-05-13 13:31:42.569] [background] [info] Syncing folder list...
+26654 [2020-05-13 13:31:44.017] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+26654 [2020-05-13 13:31:44.526] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+26654 [2020-05-13 13:31:45.068] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+26654 [2020-05-13 13:31:45.630] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:31:46.204] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:31:46.807] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+26654 [2020-05-13 13:31:47.429] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:31:48.048] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:31:48.665] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:31:49.293] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+26654 [2020-05-13 13:31:49.914] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+26654 [2020-05-13 13:31:50.540] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+26654 [2020-05-13 13:31:50.542] [background] [info] Sync loop deleting unlinked messages with phase 2.
+26654 [2020-05-13 13:31:50.545] [background] [info] Sync loop complete.
+26654 [2020-05-13 13:33:50.546] [background] [info] Syncing folder list...
+26654 [2020-05-13 13:33:51.092] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+26654 [2020-05-13 13:33:51.137] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+26654 [2020-05-13 13:33:51.155] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+26654 [2020-05-13 13:33:51.182] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:33:51.214] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:33:51.238] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+26654 [2020-05-13 13:33:51.260] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:33:51.291] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:33:51.308] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:33:51.327] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+26654 [2020-05-13 13:33:51.346] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+26654 [2020-05-13 13:33:51.368] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+26654 [2020-05-13 13:33:51.369] [background] [info] Sync loop deleting unlinked messages with phase 1.
+26654 [2020-05-13 13:33:51.373] [background] [info] Sync loop complete.
+26654 [2020-05-13 13:35:51.373] [background] [info] Syncing folder list...
+26654 [2020-05-13 13:35:51.899] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+26654 [2020-05-13 13:35:51.917] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+26654 [2020-05-13 13:35:51.933] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+26654 [2020-05-13 13:35:51.949] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:35:51.966] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:35:51.981] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+26654 [2020-05-13 13:35:51.997] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:35:52.013] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:35:52.033] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:35:52.050] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+26654 [2020-05-13 13:35:52.069] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+26654 [2020-05-13 13:35:52.085] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+26654 [2020-05-13 13:35:52.085] [background] [info] Sync loop deleting unlinked messages with phase 2.
+26654 [2020-05-13 13:35:52.086] [background] [info] Sync loop complete.
+26654 [2020-05-13 13:37:52.086] [background] [info] Syncing folder list...
+26654 [2020-05-13 13:37:52.631] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+26654 [2020-05-13 13:37:52.668] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+26654 [2020-05-13 13:37:52.685] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+26654 [2020-05-13 13:37:52.703] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:37:52.722] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:37:52.738] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+26654 [2020-05-13 13:37:52.754] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:37:52.774] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:37:52.793] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:37:52.812] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+26654 [2020-05-13 13:37:52.831] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+26654 [2020-05-13 13:37:52.849] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+26654 [2020-05-13 13:37:52.850] [background] [info] Sync loop deleting unlinked messages with phase 1.
+26654 [2020-05-13 13:37:52.854] [background] [info] Sync loop complete.
+26654 [2020-05-13 13:39:52.855] [background] [info] Syncing folder list...
+26654 [2020-05-13 13:39:53.390] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+26654 [2020-05-13 13:39:53.422] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+26654 [2020-05-13 13:39:53.439] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+26654 [2020-05-13 13:39:53.456] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:39:53.475] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:39:53.492] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+26654 [2020-05-13 13:39:53.513] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:39:53.532] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:39:53.556] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:39:53.574] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+26654 [2020-05-13 13:39:53.593] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+26654 [2020-05-13 13:39:53.617] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+26654 [2020-05-13 13:39:53.618] [background] [info] Sync loop deleting unlinked messages with phase 2.
+26654 [2020-05-13 13:39:53.620] [background] [info] Sync loop complete.
+26654 [2020-05-13 13:41:53.620] [background] [info] Syncing folder list...
+26654 [2020-05-13 13:41:54.161] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+26654 [2020-05-13 13:41:54.187] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+26654 [2020-05-13 13:41:54.204] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+26654 [2020-05-13 13:41:54.221] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:41:54.237] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:41:54.254] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+26654 [2020-05-13 13:41:54.270] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:41:54.286] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:41:54.302] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:41:54.319] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+26654 [2020-05-13 13:41:54.336] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+26654 [2020-05-13 13:41:54.354] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+26654 [2020-05-13 13:41:54.354] [background] [info] Sync loop deleting unlinked messages with phase 1.
+26654 [2020-05-13 13:41:54.354] [background] [info] Sync loop complete.
+26654 [2020-05-13 13:43:00.890] [metadata] [info] Metadata delta stream closed.
+26654 [2020-05-13 13:43:00.893] [metadata] [info] Metadata delta stream starting...
+26654 [2020-05-13 13:43:54.355] [background] [info] Syncing folder list...
+26654 [2020-05-13 13:43:54.904] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+26654 [2020-05-13 13:43:54.937] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+26654 [2020-05-13 13:43:54.963] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+26654 [2020-05-13 13:43:54.980] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:43:54.998] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:43:55.014] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+26654 [2020-05-13 13:43:55.030] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:43:55.051] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:43:55.075] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:43:55.098] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+26654 [2020-05-13 13:43:55.117] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+26654 [2020-05-13 13:43:55.136] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+26654 [2020-05-13 13:43:55.137] [background] [info] Sync loop deleting unlinked messages with phase 2.
+26654 [2020-05-13 13:43:55.141] [background] [info] Sync loop complete.
+26654 [2020-05-13 13:45:55.141] [background] [info] Syncing folder list...
+26654 [2020-05-13 13:45:55.705] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+26654 [2020-05-13 13:45:55.760] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+26654 [2020-05-13 13:45:55.790] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+26654 [2020-05-13 13:45:55.827] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:45:55.856] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:45:55.888] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+26654 [2020-05-13 13:45:55.918] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:45:55.936] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:45:55.953] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+26654 [2020-05-13 13:45:55.971] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+26654 [2020-05-13 13:45:55.992] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+26654 [2020-05-13 13:45:56.019] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+26654 [2020-05-13 13:45:56.020] [background] [info] Sync loop deleting unlinked messages with phase 1.
+26654 [2020-05-13 13:45:56.023] [background] [info] Sync loop complete.
+1484 [2020-05-13 13:46:58.348] [main] [info] Identity created at 1583930125 - using ID Schema 1
+1484 [2020-05-13 13:46:58.361] [main] [info] ------------- Starting Sync (lipowada@fel.cvut.cz) ---------------
+1484 [2020-05-13 13:46:58.378] [background] [info] Marking all folders as `busy`
+1484 [2020-05-13 13:46:58.381] [metadata] [info] Metadata delta stream starting...
+1484 [2020-05-13 13:46:58.390] [background] [info] Syncing folder list...
+1484 [2020-05-13 13:46:59.151] [background] [info] Syncing folder list...
+1484 [2020-05-13 13:46:59.351] [foreground] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+1484 [2020-05-13 13:46:59.518] [foreground] [info] Idling on folder INBOX
+1484 [2020-05-13 13:46:59.695] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+1484 [2020-05-13 13:46:59.741] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+1484 [2020-05-13 13:46:59.768] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+1484 [2020-05-13 13:46:59.792] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+1484 [2020-05-13 13:46:59.815] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+1484 [2020-05-13 13:46:59.833] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+1484 [2020-05-13 13:46:59.851] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+1484 [2020-05-13 13:46:59.869] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+1484 [2020-05-13 13:46:59.888] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+1484 [2020-05-13 13:46:59.906] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+1484 [2020-05-13 13:46:59.926] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+1484 [2020-05-13 13:46:59.945] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+1484 [2020-05-13 13:46:59.946] [background] [info] Sync loop deleting unlinked messages with phase 2.
+1484 [2020-05-13 13:46:59.947] [background] [info] Sync loop complete.
+1484 [2020-05-13 13:47:13.392] [metadataExpiration] [info] Scanning for expired metadata
+1484 [2020-05-13 13:47:13.393] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+2448 [2020-05-13 13:48:19.067] [main] [info] Identity created at 1583930125 - using ID Schema 1
+2448 [2020-05-13 13:48:19.070] [main] [info] ------------- Starting Sync (lipowada@fel.cvut.cz) ---------------
+2448 [2020-05-13 13:48:19.076] [background] [info] Marking all folders as `busy`
+2448 [2020-05-13 13:48:19.078] [metadata] [info] Metadata delta stream starting...
+2448 [2020-05-13 13:48:19.083] [background] [info] Syncing folder list...
+2448 [2020-05-13 13:48:19.824] [background] [info] Syncing folder list...
+2448 [2020-05-13 13:48:20.064] [foreground] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+2448 [2020-05-13 13:48:20.077] [foreground] [info] Idling on folder INBOX
+2448 [2020-05-13 13:48:20.369] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+2448 [2020-05-13 13:48:20.425] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+2448 [2020-05-13 13:48:20.448] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+2448 [2020-05-13 13:48:20.470] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+2448 [2020-05-13 13:48:20.488] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+2448 [2020-05-13 13:48:20.512] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+2448 [2020-05-13 13:48:20.532] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+2448 [2020-05-13 13:48:20.562] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+2448 [2020-05-13 13:48:20.586] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+2448 [2020-05-13 13:48:20.605] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+2448 [2020-05-13 13:48:20.624] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+2448 [2020-05-13 13:48:20.644] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+2448 [2020-05-13 13:48:20.647] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2448 [2020-05-13 13:48:20.651] [background] [info] Sync loop complete.
+2448 [2020-05-13 13:48:34.078] [metadataExpiration] [info] Scanning for expired metadata
+2448 [2020-05-13 13:48:34.078] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+2989 [2020-05-13 13:48:48.342] [main] [info] Identity created at 1583930125 - using ID Schema 1
+2989 [2020-05-13 13:48:48.345] [main] [info] ------------- Starting Sync (lipowada@fel.cvut.cz) ---------------
+2989 [2020-05-13 13:48:48.351] [metadata] [info] Metadata delta stream starting...
+2989 [2020-05-13 13:48:48.355] [background] [info] Marking all folders as `busy`
+2989 [2020-05-13 13:48:48.362] [background] [info] Syncing folder list...
+2989 [2020-05-13 13:48:49.135] [background] [info] Syncing folder list...
+2989 [2020-05-13 13:48:49.361] [foreground] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+2989 [2020-05-13 13:48:49.372] [foreground] [info] Idling on folder INBOX
+2989 [2020-05-13 13:48:49.697] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+2989 [2020-05-13 13:48:49.769] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+2989 [2020-05-13 13:48:49.816] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+2989 [2020-05-13 13:48:49.838] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:48:49.859] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:48:49.878] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+2989 [2020-05-13 13:48:49.897] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:48:49.919] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:48:49.942] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:48:49.963] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+2989 [2020-05-13 13:48:49.988] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+2989 [2020-05-13 13:48:50.009] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+2989 [2020-05-13 13:48:50.013] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2989 [2020-05-13 13:48:50.022] [background] [info] Sync loop complete.
+2989 [2020-05-13 13:49:03.349] [metadataExpiration] [info] Scanning for expired metadata
+2989 [2020-05-13 13:49:03.349] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+2989 [2020-05-13 13:50:50.023] [background] [info] Syncing folder list...
+2989 [2020-05-13 13:50:50.552] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+2989 [2020-05-13 13:50:50.584] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+2989 [2020-05-13 13:50:50.600] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+2989 [2020-05-13 13:50:50.617] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:50:50.634] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:50:50.652] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+2989 [2020-05-13 13:50:50.668] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:50:50.684] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:50:50.701] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:50:50.717] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+2989 [2020-05-13 13:50:50.751] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+2989 [2020-05-13 13:50:50.768] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+2989 [2020-05-13 13:50:50.768] [background] [info] Sync loop deleting unlinked messages with phase 1.
+2989 [2020-05-13 13:50:50.769] [background] [info] Sync loop complete.
+2989 [2020-05-13 13:52:50.769] [background] [info] Syncing folder list...
+2989 [2020-05-13 13:52:51.328] [background] [info] syncFolderChangesViaCondstore - INBOX: modseq 3262 to 3262, uidnext 1643 to 1643
+2989 [2020-05-13 13:52:51.373] [background] [info] syncFolderChangesViaCondstore - Sent: modseq 86 to 86, uidnext 83 to 83
+2989 [2020-05-13 13:52:51.395] [background] [info] syncFolderChangesViaCondstore - Drafts: modseq 239 to 239, uidnext 81 to 81
+2989 [2020-05-13 13:52:51.417] [background] [info] syncFolderChangesViaCondstore - Archive: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:52:51.441] [background] [info] syncFolderChangesViaCondstore - Trash: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:52:51.464] [background] [info] syncFolderChangesViaCondstore - Junk: modseq 2 to 2, uidnext 2 to 2
+2989 [2020-05-13 13:52:51.480] [background] [info] syncFolderChangesViaCondstore - Mailspring: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:52:51.506] [background] [info] syncFolderChangesViaCondstore - Mailspring.Snoozed: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:52:51.524] [background] [info] syncFolderChangesViaCondstore - Odeslan&AOE- po&AWE-ta: modseq 1 to 1, uidnext 1 to 1
+2989 [2020-05-13 13:52:51.543] [background] [info] syncFolderChangesViaCondstore - Sent Items: modseq 12 to 12, uidnext 12 to 12
+2989 [2020-05-13 13:52:51.563] [background] [info] syncFolderChangesViaCondstore - Sent Messages: modseq 3 to 3, uidnext 3 to 3
+2989 [2020-05-13 13:52:51.584] [background] [info] syncFolderChangesViaCondstore - Spam: modseq 5 to 5, uidnext 4 to 4
+2989 [2020-05-13 13:52:51.586] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2989 [2020-05-13 13:52:51.589] [background] [info] Sync loop complete.

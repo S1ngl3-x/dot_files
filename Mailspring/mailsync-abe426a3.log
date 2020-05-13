@@ -465,3 +465,140 @@
 23098 [2020-05-13 13:28:43.296] [background] [info] - remote=1, local=1
 23098 [2020-05-13 13:28:43.297] [background] [info] Sync loop deleting unlinked messages with phase 2.
 23098 [2020-05-13 13:28:43.303] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:30:43.303] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:30:43.411] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 1 - 0, Heavy: false
+23098 [2020-05-13 13:30:45.361] [background] [info] - remote=5078, local=5077
+23098 [2020-05-13 13:30:45.410] [background] [info] - Fetching full headers for 1 (of 1 needed)
+23098 [2020-05-13 13:30:45.475] [background] [info] - Updating message q8zcP6i11h6Zo69fQ8jfB9wP6fR7Vd7caigjtq8sp
+23098 [2020-05-13 13:30:45.475] [background] [info] -- UID (2289 to 2288)
+23098 [2020-05-13 13:30:45.552] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 0, Heavy: false
+23098 [2020-05-13 13:30:45.658] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:30:45.706] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23098 [2020-05-13 13:30:45.820] [background] [info] - remote=1, local=1
+23098 [2020-05-13 13:30:45.821] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23098 [2020-05-13 13:30:45.823] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:32:45.823] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:32:46.033] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+23098 [2020-05-13 13:32:46.173] [background] [info] - remote=1, local=1
+23098 [2020-05-13 13:32:46.173] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23098 [2020-05-13 13:32:46.175] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:34:46.176] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:34:46.278] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9007 - 9438, Heavy: false
+23098 [2020-05-13 13:34:46.567] [background] [info] - remote=400, local=400
+23098 [2020-05-13 13:34:46.649] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 655, Heavy: false
+23098 [2020-05-13 13:34:46.746] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:34:46.786] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23098 [2020-05-13 13:34:46.792] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:36:04.250] [calContacts] [info] MisAPB3nNAAAABII_bSdjNyw6QIQ_bSdjNyw6QJqlOze3qQvnHZoCb81kRw4OiRlYjBiOTdhOC0wYWM3LTQ2ZDAtOTljMC01YTA1NmYwMjEzYjI
+23098 [2020-05-13 13:36:06.409] [calContacts] [info] EJvs3eLfsOkC
+23098 [2020-05-13 13:36:46.793] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:36:47.013] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+23098 [2020-05-13 13:36:47.126] [background] [info] - remote=1, local=1
+23098 [2020-05-13 13:36:47.126] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23098 [2020-05-13 13:36:47.129] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:37:45.269] [metadata] [info] Metadata delta stream closed.
+23098 [2020-05-13 13:37:45.275] [metadata] [info] Metadata delta stream starting...
+23098 [2020-05-13 13:38:47.129] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:38:47.221] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9007 - 9438, Heavy: false
+23098 [2020-05-13 13:38:47.520] [background] [info] - remote=400, local=400
+23098 [2020-05-13 13:38:47.623] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 655, Heavy: false
+23098 [2020-05-13 13:38:47.716] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:38:47.755] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23098 [2020-05-13 13:38:47.764] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:40:47.765] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:40:47.863] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 1 - 0, Heavy: false
+23098 [2020-05-13 13:40:50.092] [background] [info] - remote=5078, local=5077
+23098 [2020-05-13 13:40:50.141] [background] [info] - Fetching full headers for 1 (of 1 needed)
+23098 [2020-05-13 13:40:50.236] [background] [info] - Updating message q8zcP6i11h6Zo69fQ8jfB9wP6fR7Vd7caigjtq8sp
+23098 [2020-05-13 13:40:50.236] [background] [info] -- UID (2288 to 2289)
+23098 [2020-05-13 13:40:50.293] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 0, Heavy: false
+23098 [2020-05-13 13:40:50.404] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:40:50.444] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+23098 [2020-05-13 13:40:50.538] [background] [info] - remote=1, local=1
+23098 [2020-05-13 13:40:50.540] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23098 [2020-05-13 13:40:50.547] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:42:50.548] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:42:50.756] [background] [info] Sync loop deleting unlinked messages with phase 1.
+23098 [2020-05-13 13:42:50.762] [background] [info] Sync loop complete.
+23098 [2020-05-13 13:44:50.762] [background] [info] Syncing folder list...
+23098 [2020-05-13 13:44:50.891] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9007 - 9438, Heavy: false
+23098 [2020-05-13 13:44:51.203] [background] [info] - remote=400, local=400
+23098 [2020-05-13 13:44:51.283] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 655, Heavy: false
+23098 [2020-05-13 13:44:51.370] [background] [info] - remote=0, local=0
+23098 [2020-05-13 13:44:51.411] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+23098 [2020-05-13 13:44:51.504] [background] [info] - remote=1, local=1
+23098 [2020-05-13 13:44:51.506] [background] [info] Sync loop deleting unlinked messages with phase 2.
+23098 [2020-05-13 13:44:51.512] [background] [info] Sync loop complete.
+1471 [2020-05-13 13:46:58.343] [main] [info] Identity created at 1583930125 - using ID Schema 1
+1471 [2020-05-13 13:46:58.358] [main] [info] ------------- Starting Sync (adamlipowski1988@gmail.com) ---------------
+1471 [2020-05-13 13:46:58.373] [metadata] [info] Metadata delta stream starting...
+1471 [2020-05-13 13:47:02.375] [background] [info] Fetching XOAuth2 access token from Gmail for abe426a3
+1471 [2020-05-13 13:47:02.576] [background] [info] Marking all folders as `busy`
+1471 [2020-05-13 13:47:02.597] [background] [info] Syncing folder list...
+1471 [2020-05-13 13:47:03.202] [background] [info] Syncing folder list...
+1471 [2020-05-13 13:47:03.309] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9007 - 9438, Heavy: false
+1471 [2020-05-13 13:47:03.604] [background] [info] - remote=400, local=400
+1471 [2020-05-13 13:47:03.694] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810424 to 810445, uidnext 9438 to 9438
+1471 [2020-05-13 13:47:03.819] [foreground] [info] syncFolderChangesViaCondstore - Changes since HMODSEQ 810424: 0 changed, 0 vanished
+1471 [2020-05-13 13:47:04.354] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+1471 [2020-05-13 13:47:04.403] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 655, Heavy: false
+1471 [2020-05-13 13:47:04.505] [background] [info] - remote=0, local=0
+1471 [2020-05-13 13:47:04.552] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+1471 [2020-05-13 13:47:04.689] [background] [info] - remote=1, local=1
+1471 [2020-05-13 13:47:04.690] [background] [info] Sync loop deleting unlinked messages with phase 2.
+1471 [2020-05-13 13:47:04.697] [background] [info] Sync loop complete.
+1471 [2020-05-13 13:47:13.372] [metadataExpiration] [info] Scanning for expired metadata
+1471 [2020-05-13 13:47:13.375] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+1471 [2020-05-13 13:47:19.215] [calContacts] [info] MisAPB3nNAAAABII_bSdjNyw6QIQ_bSdjNyw6QJqlOze3qQvnHZoCb81kRw4OiRlYjBiOTdhOC0wYWM3LTQ2ZDAtOTljMC01YTA1NmYwMjEzYjI
+1471 [2020-05-13 13:47:21.417] [calContacts] [info] EMSCzaTisOkC
+2437 [2020-05-13 13:48:19.056] [main] [info] Identity created at 1583930125 - using ID Schema 1
+2437 [2020-05-13 13:48:19.059] [main] [info] ------------- Starting Sync (adamlipowski1988@gmail.com) ---------------
+2437 [2020-05-13 13:48:19.087] [metadata] [info] Metadata delta stream starting...
+2437 [2020-05-13 13:48:23.062] [background] [info] Fetching XOAuth2 access token from Gmail for abe426a3
+2437 [2020-05-13 13:48:23.265] [background] [info] Marking all folders as `busy`
+2437 [2020-05-13 13:48:23.269] [background] [info] Syncing folder list...
+2437 [2020-05-13 13:48:23.772] [background] [info] Syncing folder list...
+2437 [2020-05-13 13:48:23.870] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9007 - 9438, Heavy: false
+2437 [2020-05-13 13:48:24.181] [background] [info] - remote=400, local=400
+2437 [2020-05-13 13:48:24.271] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810445 to 810445, uidnext 9438 to 9438
+2437 [2020-05-13 13:48:24.299] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+2437 [2020-05-13 13:48:24.388] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2437 [2020-05-13 13:48:24.391] [background] [info] Sync loop complete.
+2437 [2020-05-13 13:48:34.076] [metadataExpiration] [info] Scanning for expired metadata
+2437 [2020-05-13 13:48:34.077] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+2976 [2020-05-13 13:48:48.335] [main] [info] Identity created at 1583930125 - using ID Schema 1
+2976 [2020-05-13 13:48:48.338] [main] [info] ------------- Starting Sync (adamlipowski1988@gmail.com) ---------------
+2976 [2020-05-13 13:48:48.355] [metadata] [info] Metadata delta stream starting...
+2976 [2020-05-13 13:48:52.349] [background] [info] Fetching XOAuth2 access token from Gmail for abe426a3
+2976 [2020-05-13 13:48:52.505] [background] [info] Marking all folders as `busy`
+2976 [2020-05-13 13:48:52.507] [background] [info] Syncing folder list...
+2976 [2020-05-13 13:48:52.923] [background] [info] Syncing folder list...
+2976 [2020-05-13 13:48:53.010] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 9007 - 9438, Heavy: false
+2976 [2020-05-13 13:48:53.294] [background] [info] - remote=400, local=400
+2976 [2020-05-13 13:48:53.404] [foreground] [info] syncFolderChangesViaCondstore - [Gmail]/V&AWE-echny zpr&AOE-vy: modseq 810445 to 810445, uidnext 9438 to 9438
+2976 [2020-05-13 13:48:53.439] [foreground] [info] Idling on folder [Gmail]/V&AWE-echny zpr&AOE-vy
+2976 [2020-05-13 13:48:53.447] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2976 [2020-05-13 13:48:53.451] [background] [info] Sync loop complete.
+2976 [2020-05-13 13:49:03.342] [metadataExpiration] [info] Scanning for expired metadata
+2976 [2020-05-13 13:49:03.342] [metadataExpiration] [info] -- Will wake for next expiration in 7200sec
+2976 [2020-05-13 13:49:10.710] [calContacts] [info] MisAPB3nNAAAABII_bSdjNyw6QIQ_bSdjNyw6QJqlOze3qQvnHZoCb81kRw4OiRlYjBiOTdhOC0wYWM3LTQ2ZDAtOTljMC01YTA1NmYwMjEzYjI
+2976 [2020-05-13 13:49:12.877] [calContacts] [info] EJu039nisOkC
+2976 [2020-05-13 13:50:53.452] [background] [info] Syncing folder list...
+2976 [2020-05-13 13:50:53.580] [background] [info] syncFolderUIDRange for [Gmail]/V&AWE-echny zpr&AOE-vy, UIDs: 1 - 0, Heavy: false
+2976 [2020-05-13 13:50:55.484] [background] [info] - remote=5078, local=5077
+2976 [2020-05-13 13:50:55.534] [background] [info] - Fetching full headers for 1 (of 1 needed)
+2976 [2020-05-13 13:50:55.591] [background] [info] - Updating message q8zcP6i11h6Zo69fQ8jfB9wP6fR7Vd7caigjtq8sp
+2976 [2020-05-13 13:50:55.591] [background] [info] -- UID (2289 to 2288)
+2976 [2020-05-13 13:50:55.664] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 0, Heavy: false
+2976 [2020-05-13 13:50:55.752] [background] [info] - remote=0, local=0
+2976 [2020-05-13 13:50:55.795] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 0, Heavy: false
+2976 [2020-05-13 13:50:55.890] [background] [info] - remote=1, local=1
+2976 [2020-05-13 13:50:55.891] [background] [info] Sync loop deleting unlinked messages with phase 1.
+2976 [2020-05-13 13:50:55.897] [background] [info] Sync loop complete.
+2976 [2020-05-13 13:52:55.897] [background] [info] Syncing folder list...
+2976 [2020-05-13 13:52:56.076] [background] [info] syncFolderUIDRange for [Gmail]/Ko&AWE-, UIDs: 1 - 655, Heavy: false
+2976 [2020-05-13 13:52:56.168] [background] [info] - remote=0, local=0
+2976 [2020-05-13 13:52:56.214] [background] [info] syncFolderUIDRange for [Gmail]/Spam, UIDs: 1 - 964, Heavy: false
+2976 [2020-05-13 13:52:56.320] [background] [info] - remote=1, local=1
+2976 [2020-05-13 13:52:56.322] [background] [info] Sync loop deleting unlinked messages with phase 2.
+2976 [2020-05-13 13:52:56.330] [background] [info] Sync loop complete.
