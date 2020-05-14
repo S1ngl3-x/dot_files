@@ -625,6 +625,7 @@ clientkeys = my_table.join(
             c:raise()
         end ,
         {description = "maximize", group = "client"})
+
 )
 
 -- Bind all key numbers to tags.
@@ -722,7 +723,8 @@ awful.rules.rules = {
 
     -- Titlebars
     { rule_any = { type = { "dialog", "normal" } },
-      properties = { titlebars_enabled = true } },
+      properties = { titlebars_enabled = false } }, -- hide title bars
+      --properties = { titlebars_enabled = true } }, -- show title bars
 
     -- Set Firefox to always map on the first tag on screen 1.
     { rule = { class = "Firefox" },
