@@ -534,24 +534,59 @@ globalkeys = my_table.join(
     awful.key({ modkey }, "v", function () awful.spawn.with_shell("xsel -b | xsel") end,
               {description = "copy gtk to terminal", group = "hotkeys"}),
 
-    -- User programs
-    awful.key({ modkey }, "q", function () awful.spawn(browser) end,
-              {description = "run browser", group = "launcher"}),
-    awful.key({ modkey }, "a", function () awful.spawn(guieditor) end,
-              {description = "run gui editor", group = "launcher"}),
+    -- Basic programs
 
-    --Dmenu
     awful.key({ modkey }, "r", function()
         awful.util.spawn("dmenu_run")
     end,
-        { description = "run dmenu", group = "launcher" }),
+        { description = "Dmenu", group = "launcher" }),
 
-    --Vivaldi
     awful.key({ modkey }, "b", function()
         awful.util.spawn("vivaldi-stable")
     end,
-        { description = "open browser", group = "launcher" })
+        { description = "Vivaldi", group = "launcher" }),
 
+
+    -- Additional applications
+    awful.key({ modkey, altkey }, "i", function()
+        awful.util.spawn("intellij-idea-ultimate-edition")
+    end,
+        { description = "Intellij", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "m", function()
+        awful.util.spawn("mailspring")
+    end,
+        { description = "Mailspring", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "a", function()
+        awful.util.spawn("android-studio-canary")
+    end,
+        { description = "Android Studio", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "p", function()
+        awful.util.spawn("spotify")
+    end,
+        { description = "Spotify", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "s", function()
+        awful.util.spawn("slack")
+    end,
+        { description = "Slack", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "w", function()
+        awful.util.spawn("webstorm")
+    end,
+        { description = "Webstorm", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "t", function()
+        awful.util.spawn("teams")
+    end,
+        { description = "Microsoft Teams", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "k", function()
+        awful.util.spawn("keepassxc")
+    end,
+        { description = "KeePassXC", group = "apps" })
 
 )
 
