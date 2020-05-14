@@ -192,6 +192,7 @@ lain.layout.cascade.tile.ncol          = 2
 
 beautiful.init(string.format("%s/.config/awesome/themes/%s/theme.lua", os.getenv("HOME"), chosen_theme))
 -- }}}
+beautiful.useless_gap = 3
 
 -- {{{ Menu
 local myawesomemenu = {
@@ -782,8 +783,3 @@ if autorun then
         awful.util.spawn(autorunApps[app])
     end
 end
-
-
--- possible workaround for tag preservation when switching back to default screen:
--- https://github.com/lcpz/awesome-copycats/issues/251
--- }}}
