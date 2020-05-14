@@ -63,13 +63,13 @@
         "link-tracking": {
           "quota": 5,
           "period": "weekly",
-          "usedInPeriod": 4,
+          "usedInPeriod": 0,
           "featureLimitName": "basic-limit"
         },
         "open-tracking": {
           "quota": 5,
           "period": "weekly",
-          "usedInPeriod": 4,
+          "usedInPeriod": 0,
           "featureLimitName": "basic-limit"
         },
         "contact-profiles": {

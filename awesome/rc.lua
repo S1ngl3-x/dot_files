@@ -105,9 +105,9 @@ awful.util.tagnames = { "1", "2", "3", "4", "5" }
 awful.layout.layouts = {
     --awful.layout.suit.floating,
     awful.layout.suit.tile,
-    awful.layout.suit.tile.left,
-    awful.layout.suit.tile.bottom,
-    awful.layout.suit.tile.top,
+--    awful.layout.suit.tile.left,
+ --   awful.layout.suit.tile.bottom,
+  --  awful.layout.suit.tile.top,
     --awful.layout.suit.fair,
     --awful.layout.suit.fair.horizontal,
     --awful.layout.suit.spiral,
@@ -283,12 +283,12 @@ globalkeys = my_table.join(
     awful.key({ altkey }, "Right", function () lain.util.tag_view_nonempty(1) end,
               {description = "view  previous nonempty", group = "tag"}),
 
-    awful.key({ modkey, }, "j",
+    awful.key({ modkey, }, "k",
         function()
             awful.client.focus.byidx(1)
         end,
         { description = "focus next by index", group = "client" }),
-    awful.key({ modkey, }, "k",
+    awful.key({ modkey, }, "j",
         function()
             awful.client.focus.byidx(-1)
         end,
@@ -384,7 +384,7 @@ globalkeys = my_table.join(
 --        {description = "toggle wibox", group = "awesome"}),
 
     -- On the fly useless gaps change
-    awful.key({ altkey, "Control" }, "+", function () lain.util.useless_gaps_resize(1) end,
+    awful.key({ altkey, "Control" }, "p", function () lain.util.useless_gaps_resize(1) end,
               {description = "increment useless gaps", group = "tag"}),
     awful.key({ altkey, "Control" }, "-", function () lain.util.useless_gaps_resize(-1) end,
               {description = "decrement useless gaps", group = "tag"}),
