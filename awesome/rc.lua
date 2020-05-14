@@ -776,7 +776,7 @@ autorunApps =
 --    "mons -e top",
     "picom",
     "owncloud",
-    "mailspring",
+    "mailspring -b",
 }
 if autorun then
     for app = 1, #autorunApps do
