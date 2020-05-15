@@ -811,6 +811,7 @@ autorun = true
 autorunApps =
 {
 --    "mons -e top",
+    "nm-applet",
     "picom",
     "owncloud",
     "mailspring -b",
