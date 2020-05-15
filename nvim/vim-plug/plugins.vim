@@ -20,4 +20,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/tpope/vim-surround'
     Plug 'https://github.com/airblade/vim-gitgutter'
     Plug 'https://github.com/joshdick/onedark.vim'
+    Plug 'https://github.com/xolox/vim-misc'
+    Plug 'https://github.com/xolox/vim-lua-ftplugin'
 call plug#end()
