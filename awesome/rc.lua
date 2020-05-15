@@ -261,7 +261,15 @@ root.buttons(my_table.join(
 globalkeys = my_table.join(
     -- Take a screenshot
     -- https://github.com/lcpz/dots/blob/master/bin/screenshot
-    awful.key({ altkey }, "p", function() os.execute("screenshot") end,
+    --awful.key({ altkey }, "p", function() os.execute("screenshot") end,
+    --awful.key({ altkey }, "p", function() awful.util.spawn( "flameshot gui -p /home/adam/Pictures/screenshots" ) end,
+    awful.key({ }, "Print", function() awful.util.spawn( "flameshot screen -c -p /home/adam/Pictures/screenshots/" ) end,
+              {description = "screenshot of 1 screen", group = "hotkeys"}),
+
+    awful.key({ "Shift" }, "Print", function() awful.util.spawn( "flameshot full -c -p /home/adam/Pictures/screenshots/" ) end,
+              {description = "screenshot of all screens", group = "hotkeys"}),
+
+    awful.key({ modkey, "Shift" }, "s", function() awful.util.spawn( "flameshot gui -p /home/adam/Pictures/screenshots" ) end,
               {description = "take a screenshot", group = "hotkeys"}),
 
     -- X screen locker
