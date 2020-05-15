@@ -820,3 +820,6 @@ if autorun then
         awful.util.spawn(autorunApps[app])
     end
 end
+
+-- Border focus colour
+--beautiful.border_focus = "#ceb28e"
