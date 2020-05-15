@@ -818,6 +818,7 @@ autorunApps =
     "picom",
     "owncloud",
     "mailspring -b",
+    "xfce4-power-manager",
 }
 if autorun then
     for app = 1, #autorunApps do
