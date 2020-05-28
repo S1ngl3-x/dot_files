@@ -556,6 +556,11 @@ globalkeys = my_table.join(
     end,
         { description = "Vivaldi", group = "launcher" }),
 
+    awful.key({ modkey }, "q", function()
+        awful.util.spawn("thunar")
+    end,
+        { description = "File manager", group = "launcher" }),
+
 
     -- Additional applications
     awful.key({ modkey, altkey }, "i", function()
@@ -569,7 +574,7 @@ globalkeys = my_table.join(
         { description = "Mailspring", group = "apps" }),
 
     awful.key({ modkey, altkey }, "a", function()
-        awful.util.spawn("android-studio-canary")
+        awful.util.spawn("android-studio-beta")
     end,
         { description = "Android Studio", group = "apps" }),
 
@@ -596,8 +601,17 @@ globalkeys = my_table.join(
     awful.key({ modkey, altkey }, "k", function()
         awful.util.spawn("keepassxc")
     end,
-        { description = "KeePassXC", group = "apps" })
+        { description = "KeePassXC", group = "apps" }),
 
+    awful.key({ modkey, altkey }, "d", function()
+        awful.util.spawn("datagrip")
+    end,
+        { description = "Data Grip", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "g", function()
+        awful.util.spawn("google-chrome-stable")
+    end,
+        { description = "Google Chrome", group = "apps" })
 )
 
 clientkeys = my_table.join(
@@ -822,8 +836,8 @@ autorunApps =
 {
 --    "mons -e top",
 --    "autorandr -c",
-    "nm-applet",
     "picom",
+    "nm-applet",
     "owncloud",
     "mailspring -b",
     "xfce4-power-manager",
