@@ -611,7 +611,13 @@ globalkeys = my_table.join(
     awful.key({ modkey, altkey }, "g", function()
         awful.util.spawn("google-chrome-stable")
     end,
-        { description = "Google Chrome", group = "apps" })
+        { description = "Google Chrome", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "c", function()
+        awful.util.spawn("caprine")
+    end,
+        { description = "Caprine", group = "apps" })
+
 )
 
 clientkeys = my_table.join(
