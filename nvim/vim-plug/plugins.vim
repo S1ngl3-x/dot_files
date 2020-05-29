@@ -22,4 +22,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/joshdick/onedark.vim'
     Plug 'https://github.com/xolox/vim-misc'
     Plug 'https://github.com/xolox/vim-lua-ftplugin'
+    Plug 'https://github.com/elzr/vim-json'
 call plug#end()

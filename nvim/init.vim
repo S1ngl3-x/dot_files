@@ -10,3 +10,4 @@ set number
 colorscheme onedark
 set clipboard+=unnamedplus
 set ignorecase
+hi Normal guibg=NONE ctermbg=NONE
