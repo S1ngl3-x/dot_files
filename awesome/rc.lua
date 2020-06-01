@@ -857,3 +857,4 @@ end
 
 -- Border focus colour
 --beautiful.border_focus = "#ceb28e"
+--
