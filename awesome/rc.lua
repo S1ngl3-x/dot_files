@@ -349,9 +349,9 @@ globalkeys = my_table.join(
               {description = "show main menu", group = "awesome"}),
 
     -- Layout manipulation
-    awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end,
+    awful.key({ modkey, "Shift"   }, "k", function () awful.client.swap.byidx(  1)    end,
               {description = "swap with next client by index", group = "client"}),
-    awful.key({ modkey, "Shift"   }, "k", function () awful.client.swap.byidx( -1)    end,
+    awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx( -1)    end,
               {description = "swap with previous client by index", group = "client"}),
     awful.key({ modkey, "Control" }, "j", function () awful.screen.focus_relative( 1) end,
         {description = "focus the next screen", group = "screen"}),
@@ -842,11 +842,12 @@ autorunApps =
 {
 --    "mons -e top",
 --    "autorandr -c",
-    "picom",
-    "nm-applet",
-    "owncloud",
-    "mailspring -b",
-    "xfce4-power-manager",
+    "picom", --composer
+    "nm-applet", --wifi
+    "owncloud", --cloud
+    "setxkbmap -option grp:switch,grp_led:scroll,grp:win_space_toggle -layout us,cz -variant ,qwerty", --keyboard switch
+    "mailspring -b", --mail
+    "xfce4-power-manager", --battery indicator
 }
 if autorun then
     for app = 1, #autorunApps do
