@@ -616,8 +616,13 @@ globalkeys = my_table.join(
     awful.key({ modkey, altkey }, "c", function()
         awful.util.spawn("caprine")
     end,
-        { description = "Caprine", group = "apps" })
+        { description = "Caprine", group = "apps" }),
 
+
+    awful.key({ modkey, altkey }, "o", function()
+        awful.util.spawn("ms-office-online")
+    end,
+        { description = "Microsoft Office", group = "apps" })
 )
 
 clientkeys = my_table.join(
