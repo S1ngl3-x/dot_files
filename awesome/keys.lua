@@ -251,6 +251,11 @@ keys.globalkeys = gears.table.join(-- =========================================
     end,
         { description = "Vivaldi", group = "launcher" }),
 
+    awful.key({ modkey }, "q", function()
+        awful.util.spawn("thunar")
+    end,
+        { description = "File manager", group = "launcher" }),
+
     -- =========================================
     -- BASIC PROGRAMS
     -- =========================================
@@ -592,7 +597,7 @@ keys.clientkeys = gears.table.join(-- Move to edge or swap by direction
         { description = "toggle fullscreen", group = "client" }),
 
     -- close client
-    awful.key({ modkey }, "q",
+    awful.key({ modkey }, "x",
         function(c)
             c:kill()
         end,

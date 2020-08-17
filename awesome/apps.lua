@@ -29,7 +29,7 @@ apps.default = {
     launcher = "rofi -normal-window -modi drun -show drun",
     lock = "i3lock",
     screenshot = "scrot -e 'mv $f ~/Pictures/ 2>/dev/null'",
-    filebrowser = "nautilus"
+    filebrowser = "thunar"
 }
 
 -- List of apps to start once on start-up
