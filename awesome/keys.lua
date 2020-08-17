@@ -15,6 +15,7 @@ local awful = require("awful")
 local gears = require("gears")
 local naughty = require("naughty")
 local beautiful = require("beautiful")
+local hotkeys_popup = require("awful.hotkeys_popup").widget
 local dpi = beautiful.xresources.apply_dpi
 
 -- Default Applications
@@ -131,24 +132,11 @@ keys.globalkeys = gears.table.join(-- =========================================
 -- SPAWN APPLICATION KEY BINDINGS
 -- =========================================
 
--- Spawn terminal
-    awful.key({ modkey }, "Return",
-        function()
-            awful.spawn(apps.terminal)
-        end,
-        { description = "open a terminal", group = "launcher" }),
-    -- launch rofi
-    awful.key({ modkey }, "d",
-        function()
-            awful.spawn(apps.launcher)
-        end,
-        { description = "application launcher", group = "launcher" }),
+-- =========================================
+-- FUNCTION KEYS
+-- =========================================
 
-    -- =========================================
-    -- FUNCTION KEYS
-    -- =========================================
-
-    -- Brightness
+-- Brightness
     awful.key({}, "XF86MonBrightnessUp",
         function()
             awful.spawn("xbacklight -inc 10", false)
@@ -224,6 +212,109 @@ keys.globalkeys = gears.table.join(-- =========================================
             awesome.emit_signal("show_exit_screen")
         end,
         { description = "toggle exit screen", group = "hotkeys" }),
+
+    awful.key({ modkey, }, "s", hotkeys_popup.show_help,
+        { description = "show help", group = "awesome" }),
+
+    -- =========================================
+    -- UTILITIES
+    -- =========================================
+
+    awful.key({}, "Print", function() awful.util.spawn("flameshot screen -c -p /home/adam/Pictures/screenshots/") end,
+        { description = "screenshot of 1 screen", group = "hotkeys" }),
+
+    awful.key({ "Shift" }, "Print", function() awful.util.spawn("flameshot full -c -p /home/adam/Pictures/screenshots/") end,
+        { description = "screenshot of all screens", group = "hotkeys" }),
+
+    awful.key({ modkey, "Shift" }, "s", function() awful.util.spawn("flameshot gui -p /home/adam/Pictures/screenshots") end,
+        { description = "take a screenshot", group = "hotkeys" }),
+
+    -- =========================================
+    -- BASIC PROGRAMS
+    -- =========================================
+
+    -- Spawn terminal
+    awful.key({ modkey }, "Return",
+        function()
+            awful.spawn(apps.terminal)
+        end,
+        { description = "open a terminal", group = "launcher" }),
+
+    awful.key({ modkey }, "r",
+        function()
+            awful.spawn(apps.launcher)
+        end,
+        { description = "application launcher", group = "launcher" }),
+
+    awful.key({ modkey }, "b", function()
+        awful.util.spawn("vivaldi-stable")
+    end,
+        { description = "Vivaldi", group = "launcher" }),
+
+    -- =========================================
+    -- BASIC PROGRAMS
+    -- =========================================
+
+    awful.key({ modkey, altkey }, "i", function()
+        awful.util.spawn("intellij-idea-ultimate-edition")
+    end,
+        { description = "Intellij", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "m", function()
+        awful.util.spawn("mailspring")
+    end,
+        { description = "Mailspring", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "a", function()
+        awful.util.spawn("android-studio-beta")
+    end,
+        { description = "Android Studio", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "p", function()
+        awful.util.spawn("spotify")
+    end,
+        { description = "Spotify", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "s", function()
+        awful.util.spawn("slack")
+    end,
+        { description = "Slack", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "w", function()
+        awful.util.spawn("webstorm")
+    end,
+        { description = "Webstorm", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "t", function()
+        awful.util.spawn("teams")
+    end,
+        { description = "Microsoft Teams", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "k", function()
+        awful.util.spawn("keepassxc")
+    end,
+        { description = "KeePassXC", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "d", function()
+        awful.util.spawn("datagrip")
+    end,
+        { description = "Data Grip", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "g", function()
+        awful.util.spawn("google-chrome-stable")
+    end,
+        { description = "Google Chrome", group = "apps" }),
+
+    awful.key({ modkey, altkey }, "c", function()
+        awful.util.spawn("caprine")
+    end,
+        { description = "Caprine", group = "apps" }),
+
+
+    awful.key({ modkey, altkey }, "o", function()
+        awful.util.spawn("ms-office-online")
+    end,
+        { description = "Microsoft Office", group = "apps" }),
 
     -- =========================================
     -- CLIENT FOCUSING
