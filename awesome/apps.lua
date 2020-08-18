@@ -37,6 +37,7 @@ local run_on_start_up = {
     "picom",
     --   "owncloud",
     --   "mailspring -b"
+    "autorandr -c",
     "setxkbmap -option grp:switch,grp_led:scroll,grp:win_space_toggle -layout us,cz -variant ,qwerty"
 }
 
