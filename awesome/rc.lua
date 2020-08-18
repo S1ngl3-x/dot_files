@@ -14,6 +14,9 @@
 local gears = require("gears")
 local awful = require("awful")
 
+
+--awful.util.spawn_with_shell(autorandr -c)
+
 -- Import theme
 local beautiful = require("beautiful")
 beautiful.init(gears.filesystem.get_configuration_dir() .. "theme.lua")
