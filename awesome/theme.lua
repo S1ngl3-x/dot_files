@@ -36,7 +36,7 @@ theme.bg_systray = theme.bg_normal
 
 -- Foreground
 theme.fg_normal = "#ffffff"
-theme.fg_focus = "#9370DB"
+theme.fg_focus = "#D8BFD8"
 theme.fg_urgent = "#ffffff"
 theme.fg_minimize = "#ffffff"
 
@@ -49,7 +49,7 @@ theme.gap_single_client = true
 -- Window Borders
 theme.border_width = dpi(1)
 theme.border_normal = theme.bg_normal
-theme.border_focus = theme.fg_focus
+theme.border_focus = "#9370DB"
 theme.border_marked = theme.fg_urgent
 
 -- Taglist
