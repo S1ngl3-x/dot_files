@@ -609,6 +609,8 @@ keys.clientkeys = gears.table.join(-- Move to edge or swap by direction
             c.minimized = true
         end,
         { description = "minimize", group = "client" }),
+awful.key({ modkey,           }, "o",      function (c) c:move_to_screen()               end,
+              {description = "move to screen", group = "client"}),
 
     -- Maximize
     awful.key({ modkey }, "m",
