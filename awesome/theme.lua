@@ -36,12 +36,12 @@ theme.bg_systray = theme.bg_normal
 
 -- Foreground
 theme.fg_normal = "#ffffff"
-theme.fg_focus = "#e4e4e4"
+theme.fg_focus = "#9370DB"
 theme.fg_urgent = "#ffffff"
 theme.fg_minimize = "#ffffff"
 
 -- Window Gap Distance
-theme.useless_gap = dpi(7)
+theme.useless_gap = dpi(5)
 
 -- Show Gaps if Only One Client is Visible
 theme.gap_single_client = true
@@ -49,7 +49,7 @@ theme.gap_single_client = true
 -- Window Borders
 theme.border_width = dpi(1)
 theme.border_normal = theme.bg_normal
-theme.border_focus = "#ff8a65"
+theme.border_focus = theme.fg_focus
 theme.border_marked = theme.fg_urgent
 
 -- Taglist
@@ -88,6 +88,9 @@ theme.layout_floating = "~/.config/awesome/icons/layouts/view-float.png"
 theme.layout_max = "~/.config/awesome/icons/layouts/arrow-expand-all.png"
 
 theme.icon_theme = "Tela-dark"
+
+client.connect_signal("focus", function(c) c.border_color = theme.border_focus end)
+client.connect_signal("unfocus", function(c) c.border_color = theme.border_normal end)
 
 -- return theme
 return theme
