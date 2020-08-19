@@ -59,7 +59,7 @@ font:
     y: 1
 
 
-background_opacity: 0.8
+background_opacity: 0.95
 # Colors (Gruvbox dark)
 colors:
   # Default colors

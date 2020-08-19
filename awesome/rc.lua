@@ -74,9 +74,12 @@ awful.screen.connect_for_each_screen(function(s)
     end
 
     -- Only add the left panel on the primary screen
-    if s.index == 1 then
-        left_panel.create(s)
-    end
+--    if s.index == 1 then
+--        left_panel.create(s)
+--    end
+
+    -- Add the left panel to every screen
+    left_panel.create(s)
 
     -- Add the top panel to every screen
     top_panel.create(s)
