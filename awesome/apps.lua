@@ -35,8 +35,8 @@ apps.default = {
 -- List of apps to start once on start-up
 local run_on_start_up = {
     "picom",
-    --   "owncloud",
-    --   "mailspring -b"
+    "owncloud",
+    "mailspring -b",
     "setxkbmap -option grp:switch,grp_led:scroll,grp:win_space_toggle -layout us,cz -variant ,qwerty"
 }
 
