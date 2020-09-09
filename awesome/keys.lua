@@ -276,7 +276,7 @@ keys.globalkeys = gears.table.join(-- =========================================
         { description = "Android Studio", group = "apps" }),
 
     awful.key({ modkey, altkey }, "p", function()
-        awful.util.spawn("spotify")
+        awful.util.spawn("spotify --force-device-scale-factor=1.5 %U")
     end,
         { description = "Spotify", group = "apps" }),
 
