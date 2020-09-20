@@ -72,7 +72,7 @@ local globalKeys = awful.util.table.join(
 	),
 	awful.key(
 		{modkey},
-		'o',
+		'g',
 		function()
 			awful.tag.incgap(1)
 		end,
@@ -80,7 +80,7 @@ local globalKeys = awful.util.table.join(
 	),
 	awful.key(
 		{modkey, 'Shift'},
-		'o',
+		'g',
 		function()
 			awful.tag.incgap(-1)
 		end,

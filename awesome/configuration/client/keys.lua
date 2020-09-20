@@ -243,7 +243,9 @@ local client_keys = awful.util.table.join(
 	awful.key({ modkey, "Control" }, "j", function() awful.screen.focus_relative(1) end,
 		{ description = "focus the next screen", group = "screen" }),
 	awful.key({ modkey, "Control" }, "k", function() awful.screen.focus_relative(-1) end,
-		{ description = "focus the previous screen", group = "screen" })
+		{ description = "focus the previous screen", group = "screen" }),
+	awful.key({ modkey,           }, "o",      function (c) c:move_to_screen()               end,
+		{description = "move to screen", group = "client"})
 )
 
 return client_keys
