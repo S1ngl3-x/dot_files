@@ -71,8 +71,9 @@ tag.connect_signal(
 	function()
 	    awful.layout.append_default_layouts({
 			awful.layout.suit.spiral.dwindle,
-			awful.layout.suit.tile,
+			awful.layout.suit.fair,
 			awful.layout.suit.floating,
+			awful.layout.suit.corner.ne,
 			awful.layout.suit.max
 	    })
 	end
