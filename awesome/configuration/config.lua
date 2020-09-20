@@ -62,7 +62,7 @@ return {
 
 		lockscreen = {
 			military_clock = true,
-			fallback_password = 'toor',
+			fallback_password = 'admin',
 			capture_intruder = true,
 			face_capture_dir = '$(xdg-user-dir PICTURES)/Intruders/',
 			blur_background = true,
