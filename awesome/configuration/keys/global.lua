@@ -31,7 +31,7 @@ local globalKeys = awful.util.table.join(
 		{description = 'quit awesome', group = 'awesome'}
 	),
 	awful.key(
-		{altkey, 'Shift'},
+		{modkey},
 		'l',
 		function()
 			awful.tag.incmwfact(0.05)
@@ -39,28 +39,12 @@ local globalKeys = awful.util.table.join(
 		{description = 'increase master width factor', group = 'layout'}
 	),
 	awful.key(
-		{altkey, 'Shift'},
+		{modkey},
 		'h',
 		function()
 			awful.tag.incmwfact(-0.05)
 		end,
 		{description = 'decrease master width factor', group = 'layout'}
-	),
-	awful.key(
-		{modkey, 'Shift'},
-		'h',
-		function()
-			awful.tag.incnmaster(1, nil, true)
-		end,
-		{description = 'increase the number of master clients', group = 'layout'}
-	),
-	awful.key(
-		{modkey, 'Shift'},
-		'l',
-		function()
-			awful.tag.incnmaster(-1, nil, true)
-		end,
-		{description = 'decrease the number of master clients', group = 'layout'}
 	),
 	awful.key(
 		{modkey, 'Control'},
@@ -114,12 +98,12 @@ local globalKeys = awful.util.table.join(
 		awful.tag.viewnext, 
 		{description = 'view next tag', group = 'tag'}
 	),
-	awful.key(
-		{modkey}, 
-		'Escape', 
-		awful.tag.history.restore, 
-		{description = 'alternate between current and previous tag', group = 'tag'}
-	),
+--	awful.key(
+--		{modkey},
+--		'Escape',
+--		awful.tag.history.restore,
+--		{description = 'alternate between current and previous tag', group = 'tag'}
+--	),
 	awful.key({ modkey, 'Control' }, 
 		'w',
 		function ()
@@ -284,8 +268,8 @@ local globalKeys = awful.util.table.join(
 		{description = 'arandr', group = 'hotkeys'}
 	),
 	awful.key(
-		{modkey, 'Shift'},
-		'q',
+		{modkey},
+		"Escape",
 		function()
 			awesome.emit_signal('module::exit_screen:show')
 		end,
@@ -314,14 +298,6 @@ local globalKeys = awful.util.table.join(
 			awful.spawn.easy_async_with_shell(apps.utils.area_screenshot,function() end)
 		end,
 		{description = 'area/selected screenshot', group = 'Utility'}
-	),
-	awful.key(
-		{modkey},
-		'x',
-		function()
-			awesome.emit_signal('widget::blur:toggle')
-		end,
-		{description = 'toggle blur effects', group = 'Utility'}
 	),
 	awful.key(
 		{modkey},
@@ -363,8 +339,8 @@ local globalKeys = awful.util.table.join(
 		{description = 'toggle systray visibility', group = 'Utility'}
 	),
 	awful.key(
-		{modkey},
-		'l',
+		{modkey, "Shift"},
+		'Escape',
 		function()
 			awful.spawn(apps.default.lock, false)
 		end,

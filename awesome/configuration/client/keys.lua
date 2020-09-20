@@ -17,7 +17,7 @@ local client_keys = awful.util.table.join(
 	),
 	awful.key(
 		{modkey},
-		'q',
+		'x',
 		function(c)
 			c:kill()
 		end,
@@ -31,6 +31,15 @@ local client_keys = awful.util.table.join(
 		end,
 		{description = 'focus next by index', group = 'client'}
 	),
+
+	-- Maximize
+	awful.key({ modkey }, "m",
+		function(c)
+			c.maximized = not c.maximized
+			c:raise()
+		end,
+		{ description = "(un)maximize", group = "client" }),
+
 	awful.key(
 		{modkey},
 		'a',
@@ -210,7 +219,31 @@ local client_keys = awful.util.table.join(
 			end
 		end,
 		{description = 'decrease floating client size horizontally by 10 px right', group = 'client'}
-	)
+	),
+
+
+	-- ===================================================================
+	-- Custom Client Key bindings
+	-- ===================================================================
+
+	awful.key({ modkey, }, "k",
+		function()
+			awful.client.focus.byidx(1)
+		end,
+		{ description = "focus next by index", group = "client" }),
+	awful.key({ modkey, }, "j",
+		function()
+			awful.client.focus.byidx(-1)
+		end,
+		{ description = "focus right", group = "client" }),
+	awful.key({ modkey, "Shift" }, "k", function() awful.client.swap.byidx(1) end,
+		{ description = "swap with next client by index", group = "client" }),
+	awful.key({ modkey, "Shift" }, "j", function() awful.client.swap.byidx(-1) end,
+		{ description = "swap with previous client by index", group = "client" }),
+	awful.key({ modkey, "Control" }, "j", function() awful.screen.focus_relative(1) end,
+		{ description = "focus the next screen", group = "screen" }),
+	awful.key({ modkey, "Control" }, "k", function() awful.screen.focus_relative(-1) end,
+		{ description = "focus the previous screen", group = "screen" })
 )
 
 return client_keys
