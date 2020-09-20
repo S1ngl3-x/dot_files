@@ -8,16 +8,16 @@ return {
 	default = {
 
 		-- Terminal Emulator
-		terminal				= 'kitty',
+		terminal				= 'alacritty',
 
 		-- GUI Text Editor
 		text_editor 			= 'subl3',
 
 		-- Web browser
-		web_browser 			= 'firefox',
+		web_browser 			= 'vivaldi-stable',
 
 		-- GUI File manager
-		file_manager 			= 'dolphin',
+		file_manager 			= 'nemo',
 
 		-- Network manager
 		network_manager 		= 'nm-connection-editor',
@@ -83,6 +83,14 @@ return {
 		-- Audio Equalizer
 		'pulseeffects --gapplication-service',
 
+		"setxkbmap -option grp:switch,grp_led:scroll,grp:win_space_toggle -layout us,cz -variant ,qwerty",
+
+		"mailspring -b",
+
+		"owncloud",
+
+		"autorandr -c",
+
 		-- Auto lock timer
 		[[
 		xidlehook --not-when-fullscreen --not-when-audio --timer 600 \
@@ -90,8 +98,8 @@ return {
 		]]
 
 		-- You can add more start-up applications here
-	},
 
+	},
 	-- List of binaries/shell scripts that will execute a certain task
 
 	utils = {

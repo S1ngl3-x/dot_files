@@ -79,14 +79,6 @@ local globalKeys = awful.util.table.join(
 		{description = 'decrease the number of columns', group = 'layout'}
 	),
 	awful.key(
-		{modkey},
-		'space',
-		function()
-			awful.layout.inc(1)
-		end,
-		{description = 'select next layout', group = 'layout'}
-	),
-	awful.key(
 		{modkey, 'Shift'},
 		'space',
 		function()
