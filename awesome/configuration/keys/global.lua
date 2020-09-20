@@ -469,7 +469,78 @@ local globalKeys = awful.util.table.join(
 			focused.info_center:toggle()
 		end,
 		{description = 'open info center', group = 'launcher'}
-	)
+	),
+
+	-- =========================================
+	-- BASIC PROGRAMS
+	-- =========================================
+
+	awful.key({ modkey }, "b", function()
+		awful.util.spawn("vivaldi-stable")
+	end,
+		{ description = "Vivaldi", group = "launcher" }),
+
+	awful.key({ modkey, altkey }, "i", function()
+		awful.util.spawn("intellij-idea-ultimate-edition")
+	end,
+		{ description = "Intellij", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "m", function()
+		awful.util.spawn("mailspring")
+	end,
+		{ description = "Mailspring", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "a", function()
+		awful.util.spawn("android-studio-beta")
+	end,
+		{ description = "Android Studio", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "p", function()
+		awful.util.spawn("spotify --force-device-scale-factor=1.5 %U")
+	end,
+		{ description = "Spotify", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "s", function()
+		awful.util.spawn("slack")
+	end,
+		{ description = "Slack", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "w", function()
+		awful.util.spawn("webstorm")
+	end,
+		{ description = "Webstorm", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "t", function()
+		awful.util.spawn("teams")
+	end,
+		{ description = "Microsoft Teams", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "k", function()
+		awful.util.spawn("keepassxc")
+	end,
+		{ description = "KeePassXC", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "d", function()
+		awful.util.spawn("datagrip")
+	end,
+		{ description = "Data Grip", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "g", function()
+		awful.util.spawn("google-chrome-stable")
+	end,
+		{ description = "Google Chrome", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "c", function()
+		awful.util.spawn("caprine")
+	end,
+		{ description = "Caprine", group = "apps" }),
+
+
+	awful.key({ modkey, altkey }, "o", function()
+		awful.util.spawn("ms-office-online")
+	end,
+		{ description = "Microsoft Office", group = "apps" })
+
 )
 
 -- Bind all key numbers to tags.
