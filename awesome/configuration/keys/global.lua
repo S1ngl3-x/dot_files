@@ -448,7 +448,7 @@ local globalKeys = awful.util.table.join(
 	),
 
 	awful.key({ modkey }, "q", function()
-		awful.util.spawn("thunar")
+		awful.util.spawn("nemo")
 	end,
 		{ description = "File manager", group = "launcher" }),
 

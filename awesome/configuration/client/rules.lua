@@ -120,7 +120,8 @@ ruled.client.connect_signal(
 					'XTerm',
 					'UXTerm',
 					'kitty',
-					'K3rmit'
+					'K3rmit',
+					"jetbrains-datagrip"
 				}
 			},
 			properties = {
@@ -128,23 +129,6 @@ ruled.client.connect_signal(
 				switch_to_tags = true,
 				size_hints_honor = false,
 				titlebars_enabled = true
-			}
-		}
-
-		-- Browsers and chats
-		ruled.client.append_rule {
-			id         = 'web_browsers',
-			rule_any   = { 
-				class = {
-					'firefox',
-					'Tor Browser',
-					'discord',
-					'Chromium',
-					'Google-chrome'
-				}
-			},
-			properties = { 
-				tag = '2'
 			}
 		}
 
@@ -156,7 +140,10 @@ ruled.client.connect_signal(
 					'Geany',
 					'Atom',
 					'Subl3',
-					'code-oss'
+					'code-oss',
+					"jetbrains-idea",
+					"jetbrains-webstorm",
+					"jetbrains-webstorm"
 				},
 				name  = {
 					'LibreOffice',
@@ -164,19 +151,39 @@ ruled.client.connect_signal(
 				}
 			},
 			properties = { 
+				tag = '2'
+			}
+		}
+
+		-- Browsers
+		ruled.client.append_rule {
+			id         = 'web_browsers',
+			rule_any   = {
+				class = {
+					'firefox',
+					'Tor Browser',
+					'discord',
+					'Chromium',
+					'Google-chrome',
+					"Vivaldi"
+				}
+			},
+			properties = {
 				tag = '3'
 			}
 		}
 
-		-- File managers
+		-- File managers and chats
 		ruled.client.append_rule {
 			id         = 'file_managers',
 			rule_any   = {
 				class = {
 					'dolphin',
 					'ark',
-					'Nemo',
-					'File-roller'
+					"thunar",
+					'File-roller',
+					"slack",
+					"caprine"
 				}
 			},
 			properties = { 
@@ -191,7 +198,8 @@ ruled.client.connect_signal(
 			rule_any   = {
 				class = {
 					'vlc',
-					'Spotify'
+					'Spotify',
+					"mpv"
 				}
 			},
 			properties = { 
@@ -252,7 +260,7 @@ ruled.client.connect_signal(
 			}
 		}
 
-		-- IDEs and Tools
+		-- Tools
 		ruled.client.append_rule {
 			id         = 'ide',
 			rule_any   = {
@@ -260,7 +268,6 @@ ruled.client.connect_signal(
 					'Oomox',
 					'Unity',
 					'UnityHub',
-					'jetbrains-studio',
 					'Ettercap'
 				}
 			},
