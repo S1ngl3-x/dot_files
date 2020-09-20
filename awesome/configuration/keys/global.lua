@@ -447,6 +447,11 @@ local globalKeys = awful.util.table.join(
 		{description = 'open info center', group = 'launcher'}
 	),
 
+	awful.key({ modkey }, "q", function()
+		awful.util.spawn("thunar")
+	end,
+		{ description = "File manager", group = "launcher" }),
+
 	-- =========================================
 	-- BASIC PROGRAMS
 	-- =========================================
