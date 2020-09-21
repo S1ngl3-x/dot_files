@@ -7,37 +7,37 @@ local tags = {
 	{
 		icon = icons.terminal,
 		type = 'terminal',
-		default_app = 'kitty',
+		default_app = 'alacritty',
 		screen = 1
 	},
 	{
-		icon = icons.web_browser,
-		type = 'internet',
-		default_app = 'firefox',
-		screen = 1
-	},
-	{
-		icon = icons.text_editor,
+		icon = icons.development,
 		type = 'code',
 		default_app = 'subl3',
 		screen = 1
 	},
 	{
+		icon = icons.web_browser,
+		type = 'internet',
+		default_app = 'vivaldi-stable',
+		screen = 1
+	},
+	{
 		icon = icons.file_manager,
 		type = 'files',
-		default_app = 'dolphin',
+		default_app = 'nemo',
 		screen = 1
 	},
 	{
 		icon = icons.multimedia,
 		type = 'music',
-		default_app = 'vlc',
+		default_app = 'spotify',
 		screen = 1
 	},
 	{
-		icon = icons.games,
-		type = 'games',
-		default_app = 'supertuxkart',
+		icon = icons.text_editor,
+		type = 'any',
+		default_app = 'mailspring',
 		screen = 1
 	},
 	{
@@ -53,11 +53,12 @@ local tags = {
 		screen = 1
 	},
 	{
-		icon = icons.development,
-		type = 'any',
-		default_app = '',
+		icon = icons.games,
+		type = 'games',
+		default_app = 'steam',
 		screen = 1
 	}
+
 	-- {
 	--   icon = icons.social,
 	--   type = 'social',

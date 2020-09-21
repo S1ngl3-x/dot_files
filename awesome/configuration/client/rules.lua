@@ -151,7 +151,8 @@ ruled.client.connect_signal(
 				}
 			},
 			properties = { 
-				tag = '2'
+				tag = '2',
+				switch_to_tags = true
 			}
 		}
 
@@ -169,7 +170,8 @@ ruled.client.connect_signal(
 				}
 			},
 			properties = {
-				tag = '3'
+				tag = '3',
+				switch_to_tags = true
 			}
 		}
 
@@ -198,9 +200,8 @@ ruled.client.connect_signal(
 			rule_any   = {
 				class = {
 					'vlc',
-					'Spotify',
-					"mpv",
-					"Mailspring"
+--					'Spotify',
+					"mpv"
 				}
 			},
 			properties = { 
@@ -210,25 +211,22 @@ ruled.client.connect_signal(
 			}
 		}
 
-		-- Gaming
+		-- Email and tools
 		ruled.client.append_rule {
-			id         = 'gaming',
+			id         = 'ide',
 			rule_any   = {
 				class = {
-					'Wine',
-					'dolphin-emu',
-					'Steam',
-					'Citra',
-					'supertuxkart'
-				},
-				name = { 'Steam' }
+					'Oomox',
+					'Unity',
+					'UnityHub',
+					'Ettercap',
+					"Mailspring"
+				}
 			},
-			properties = { 
+			properties = {
 				tag = '6',
 				skip_decoration = true,
-				switch_to_tags = true,
-				floating = true,
-				placement = awful.placement.centered
+				switch_to_tags = true
 			}
 		}
 
@@ -261,20 +259,25 @@ ruled.client.connect_signal(
 			}
 		}
 
-		-- Tools
+		-- Gaming
 		ruled.client.append_rule {
-			id         = 'ide',
+			id         = 'gaming',
 			rule_any   = {
 				class = {
-					'Oomox',
-					'Unity',
-					'UnityHub',
-					'Ettercap'
-				}
+					'Wine',
+					'dolphin-emu',
+					'Steam',
+					'Citra',
+					'supertuxkart'
+				},
+				name = { 'Steam' }
 			},
-			properties = { 
+			properties = {
 				tag = '9',
-				skip_decoration = true
+				skip_decoration = true,
+				switch_to_tags = true,
+				floating = true,
+				placement = awful.placement.centered
 			}
 		}
 
@@ -385,7 +388,7 @@ client.connect_signal(
 				end
 			else
 				-- Move the instance to specified tag on this screen
-				local t = awful.tag.find_by_name(awful.screen.focused(), '6')
+				local t = awful.tag.find_by_name(awful.screen.focused(), '5')
 				c:move_to_tag(t)
 				t:view_only()
 

@@ -477,7 +477,8 @@ local globalKeys = awful.util.table.join(
 		{ description = "Android Studio", group = "apps" }),
 
 	awful.key({ modkey, altkey }, "p", function()
-		awful.util.spawn("spotify --force-device-scale-factor=1.5 %U")
+--		awful.util.spawn("spotify --force-device-scale-factor=1.5 %U")
+		awful.util.spawn("spotify")
 	end,
 		{ description = "Spotify", group = "apps" }),
 
