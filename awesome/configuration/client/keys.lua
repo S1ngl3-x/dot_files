@@ -71,7 +71,7 @@ local client_keys = awful.util.table.join(
 		{description = 'jump to urgent client', group = 'client'}
 	),
 	awful.key(
-		{modkey},
+		{altkey},
 		'Tab',
 		function()
 			awful.client.focus.history.previous()
