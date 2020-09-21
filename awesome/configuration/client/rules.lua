@@ -182,8 +182,8 @@ ruled.client.connect_signal(
 					'ark',
 					"thunar",
 					'File-roller',
-					"slack",
-					"caprine"
+					"Slack",
+					"Caprine"
 				}
 			},
 			properties = { 
@@ -192,14 +192,15 @@ ruled.client.connect_signal(
 			}
 		}
 
-		-- Multimedia
+		-- Email and multimedia
 		ruled.client.append_rule {
 			id         = 'multimedia',
 			rule_any   = {
 				class = {
 					'vlc',
 					'Spotify',
-					"mpv"
+					"mpv",
+					"Mailspring"
 				}
 			},
 			properties = { 
