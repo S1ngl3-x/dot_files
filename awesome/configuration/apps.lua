@@ -89,7 +89,7 @@ return {
 
 		"owncloud",
 
-		"autorandr -c",
+--		"autorandr -c",
 
 		-- Auto lock timer
 		[[
