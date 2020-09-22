@@ -78,29 +78,8 @@ If you're too lazy to read the wiki, here's some of the details you need to know
 ### Installation and usage
 
 1. Install the [required dependencies](#required-dependencies). Note that there's also an [optional dependencies](https://github.com/manilarome/the-glorious-dotfiles/wiki#optional-dependencies).
-2. Clone this repository.
-
-	```bash
-	$ git clone --depth 1 https://github.com/manilarome/the-glorious-dotfiles/
-	```
-
-3. Make sure to create a backup if you have a current AwesomeWM configuration.
-4. Copy the `the-glorious-dotfiles/config/awesome/SETUPNAME` folder to your `"${HOME}"/.config/`. I'll just assume that you don't have an `awesome` folder in your `~/.config/`:
-
-	```bash
-	# Use the Floppy setup
-	$ cp -r the-glorious-dotfiles/config/awesome/floppy $HOME/.config/awesome
-
-	# Use the GNawesOME setup
-	$ cp -r the-glorious-dotfiles/config/awesome/gnawesome $HOME/.config/awesome
-
-	# Use the Linear setup
-	$ cp -r the-glorious-dotfiles/config/awesome/linear $HOME/.config/awesome
-
-	# Use the Surreal setup
-	$ cp -r the-glorious-dotfiles/config/awesome/surreal $HOME/.config/awesome
-	```
-
+2. Clone proper branch!!! of this repository.
+3. Copy all directories to your $HOME.config directory. Make sure to create a backup if you have a current AwesomeWM configuration.
 4. Change the global configuration in `$HOME/.config/awesome/configuration/config.lua`.
 5. Reload AwesomeWM by pressing <kbd>Super + Shift + r</kbd>.
 
