@@ -1,0 +1,8 @@
+to enable rights
+$ sudo chown $USER -R /opt/spotify
+
+to enable dev tools
+$ spicetify backup apply enable-devtool
+
+to apply theme
+$ spicetify update restart
