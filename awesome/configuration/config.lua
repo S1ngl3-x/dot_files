@@ -57,7 +57,8 @@ return {
 				'night'
 			--]]
 			},
-			stretch = false
+--			stretch = false -- WALLPAPER WAS STRECHED ACROSS DISPLAYS
+			stretch = true
 		},
 
 		lockscreen = {

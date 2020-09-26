@@ -52,14 +52,14 @@ font:
     family: Noto Sans Mono
     style: Bold Italic
 
-  size: 20.0
+  size: 14.0
 
   offset:
     x: 1
     y: 1
 
 
-background_opacity: 0.95
+background_opacity: 0.80
 # Colors (Gruvbox dark)
 colors:
   # Default colors
