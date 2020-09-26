@@ -34,8 +34,8 @@ local create_vertical_bar = function(c, buttons, pos, bg, size)
 		{
 			{
 				awful.titlebar.widget.closebutton(c),
-				awful.titlebar.widget.maximizedbutton(c),
 				awful.titlebar.widget.minimizebutton(c),
+				awful.titlebar.widget.maximizedbutton(c),
 				spacing = dpi(7),
 				layout  = wibox.layout.fixed.vertical
 			},
@@ -72,8 +72,8 @@ local create_horizontal_bar = function(c, buttons, pos, bg, size)
 		{
 			{
 				awful.titlebar.widget.closebutton(c),
-				awful.titlebar.widget.maximizedbutton(c),
 				awful.titlebar.widget.minimizebutton(c),
+				awful.titlebar.widget.maximizedbutton(c),
 				spacing = dpi(7),
 				layout  = wibox.layout.fixed.horizontal
 			},
