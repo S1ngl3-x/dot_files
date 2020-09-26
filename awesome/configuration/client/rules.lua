@@ -194,7 +194,7 @@ ruled.client.connect_signal(
 			}
 		}
 
-		-- Email and multimedia
+		-- Multimedia
 		ruled.client.append_rule {
 			id         = 'multimedia',
 			rule_any   = {
@@ -230,18 +230,24 @@ ruled.client.connect_signal(
 			}
 		}
 
-		-- Multimedia Editing
+		-- Multimedia Streaming And Editing
 		ruled.client.append_rule {
 			id         = 'graphics_editors',
 			rule_any   = {
 				class = {
 					'Gimp-2.10',
 					'Inkscape',
-					'Flowblade'
+					'Flowblade',
+					"zoom",
+					"Microsoft Teams - Preview"
 				}
 			},
 			properties = { 
-				tag = '7'
+				tag = '7',
+				skip_decoration = true,
+				switch_to_tags = true,
+				floating = true,
+				placement = awful.placement.centered
 			}
 		}
 
@@ -343,6 +349,26 @@ ruled.client.connect_signal(
 				placement = awful.placement.centered
 			}
 		}
+
+		-- Stupid Microsoft Teams rule to stop notifications from dividing my screen in half
+--		ruled.client.append_rule {
+--			id       = 'microsoft-teams',
+--			rule_any = {
+--				class = {
+--					"Microsoft Teams - Preview"
+--				}
+--			},
+--			properties = {
+--				titlebars_enabled = true,
+--				skip_decoration = true,
+--				floating = true,
+--				focus = awful.client.focus.filter,
+--				raise = true,
+--				keys = client_keys,
+--				buttons = client_buttons,
+--				placement = awful.placement.centered
+--			}
+--		}
 		
 	end
 )
