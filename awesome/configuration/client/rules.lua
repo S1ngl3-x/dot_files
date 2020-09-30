@@ -220,7 +220,8 @@ ruled.client.connect_signal(
 					'Unity',
 					'UnityHub',
 					'Ettercap',
-					"Mailspring"
+					"Mailspring",
+					"MineTime"
 				}
 			},
 			properties = {
