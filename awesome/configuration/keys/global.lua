@@ -513,6 +513,11 @@ local globalKeys = awful.util.table.join(
 		{ description = "Google Chrome", group = "apps" }),
 
 	awful.key({ modkey, altkey }, "c", function()
+		awful.util.spawn("minetime")
+	end,
+		{ description = "Calendar", group = "apps" }),
+
+	awful.key({ modkey, altkey }, "f", function()
 		awful.util.spawn("caprine")
 	end,
 		{ description = "Caprine", group = "apps" }),
