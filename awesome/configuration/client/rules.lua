@@ -143,7 +143,7 @@ ruled.client.connect_signal(
 					'code-oss',
 					"jetbrains-idea",
 					"jetbrains-webstorm",
-					"jetbrains-webstorm"
+					"jetbrains-clion"
 				},
 				name  = {
 					'LibreOffice',
