@@ -80,7 +80,7 @@ If you're too lazy to read the wiki, here's some of the details you need to know
 1. Install the [required dependencies](#required-dependencies). Note that there's also an [optional dependencies](https://github.com/manilarome/the-glorious-dotfiles/wiki#optional-dependencies).
 2. Clone proper branch!!! of this repository.
 3. Copy all directories to your $HOME.config directory. Make sure to create a backup if you have a current AwesomeWM configuration.
-4. Create secrets.lua file to store sensitive info outside git repo. A) cd $HOME/.config/awesome/configuration B) ./create_secrets_file (might need to set permision first chmod +x create_secrets_file
+4. Create secrets.lua file to store sensitive info outside git repo. A) cd `$HOME/.config/awesome/configuration` B) `./create_secrets_file` (might need to set permision first `chmod +x create_secrets_file`
 )
 5. Change the global configuration in `$HOME/.config/awesome/configuration/config.lua` and in `$HOME/.config/awesome/configuration/secrets.lua`.
 6. Reload AwesomeWM by pressing <kbd>Super + Shift + r</kbd>.
