@@ -1,26 +1,37 @@
+local config = require('configuration.secrets')
+local secrets = {
+	email_address = config.widget.email.address,
+	app_password = config.widget.email.app_password,
+	weatherApiKey = config.widget.weather.key,
+	city = config.widget.weather.city_id,
+	wired_interface = config.widget.network.wired_interface,
+	wireless_interface = config.widget.network.wireless_interface,
+	fallbackPassword = config.module.lockscreen.fallback_password
+}
+
 return {
 	widget = {
 		email  = {
-			address       = '',
-			app_password  = '',
-			imap_server   = 'imap.gmail.com',
+			address       = 'secrets.email.address',
+			app_password  = 'secrets.app_password',
+			imap_server   = 'imap.seznam.cz',
 			port          = '993'
 		},
 
 		weather = {
-			key           = '98298be85a2073f8670d0d1a6ce23130',
-			city_id       = '3067696',
+			key           = secrets.weatherApiKey,
+			city_id       = secrets.city,
 			units         = 'metric',
 			update_interval = 1200
 		},
 
 		network = {
-			wired_interface = 'enp0s0',
-			wireless_interface = 'wlan0'
+			wired_interface = secrets.wired_interface,
+			wireless_interface = secrets.wireless_interface
 		},
 
 		clock = {
-			military_mode = false,
+			military_mode = true,
 		},
 
 		screen_recorder = {
@@ -57,13 +68,12 @@ return {
 				'night'
 			--]]
 			},
---			stretch = false -- WALLPAPER WAS STRECHED ACROSS DISPLAYS
-			stretch = true
+			stretch = true -- false => STRECH ACROSS DISPLAYS
 		},
 
 		lockscreen = {
 			military_clock = true,
-			fallback_password = 'admin',
+			fallback_password = secrets.fallbackPassword,
 			capture_intruder = true,
 			face_capture_dir = '$(xdg-user-dir PICTURES)/Intruders/',
 			blur_background = true,
