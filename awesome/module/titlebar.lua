@@ -133,17 +133,17 @@ client.connect_signal(
 		if c.class == 'XTerm' or c.class == 'UXTerm' then
 			create_horizontal_bar(c, buttons, 'top', beautiful.xresources.get_current_theme().background, beautiful.titlebar_size)
 		elseif c.class == 'Nemo' then
---			create_horizontal_bar(c, buttons, 'top', beautiful.gtk.get_theme_variables().bg_color, beautiful.titlebar_size)
-			create_horizontal_bar(c, buttons, 'top', '#000000AA', beautiful.titlebar_size)
+			create_horizontal_bar(c, buttons, 'top', beautiful.gtk.get_theme_variables().bg_color, beautiful.titlebar_size)
+--			create_horizontal_bar(c, buttons, 'top', '#000000AA', beautiful.titlebar_size)
 		elseif c.type == 'normal' then
---			create_vertical_bar(c, buttons, 'left', '#000000AA', beautiful.titlebar_size)
-			create_horizontal_bar(c, buttons, 'top', '#000000AA', beautiful.titlebar_size)
-		elseif c.type == 'dialog' or c.type == 'modal' then
 			create_vertical_bar(c, buttons, 'left', '#000000AA', beautiful.titlebar_size)
 --			create_horizontal_bar(c, buttons, 'top', '#000000AA', beautiful.titlebar_size)
-		else
+		elseif c.type == 'dialog' or c.type == 'modal' then
 --			create_vertical_bar(c, buttons, 'left', '#000000AA', beautiful.titlebar_size)
 			create_horizontal_bar(c, buttons, 'top', '#000000AA', beautiful.titlebar_size)
+		else
+			create_vertical_bar(c, buttons, 'left', '#000000AA', beautiful.titlebar_size)
+--			create_horizontal_bar(c, buttons, 'top', '#000000AA', beautiful.titlebar_size)
 		end
 	end
 )
