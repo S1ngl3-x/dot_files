@@ -8,7 +8,7 @@ local altkey = require('configuration.keys.mod').alt_key
 local client_keys = awful.util.table.join(
 	awful.key(
 		{modkey},
-		'f',
+		'F11',
 		function(c)
 			c.fullscreen = not c.fullscreen
 			c:raise()

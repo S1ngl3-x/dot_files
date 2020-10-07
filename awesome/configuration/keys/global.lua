@@ -283,12 +283,6 @@ local globalKeys = awful.util.table.join(-- Hotkeys
             awful.spawn(apps.default.file_manager)
         end,
         { description = 'open default file manager', group = 'launcher' }),
-    awful.key({ modkey, 'Shift' },
-        'f',
-        function()
-            awful.spawn(apps.default.web_browser)
-        end,
-        { description = 'open default web browser', group = 'launcher' }),
     awful.key({ 'Control', 'Shift' },
         'Escape',
         function()
