@@ -8,8 +8,8 @@ return {
 		},
 
 		weather = {
-			key           = '',
-			city_id       = '',
+			key           = '98298be85a2073f8670d0d1a6ce23130',
+			city_id       = '3067696',
 			units         = 'metric',
 			update_interval = 1200
 		},
