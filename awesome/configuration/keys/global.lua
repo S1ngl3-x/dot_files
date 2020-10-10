@@ -431,9 +431,9 @@ local globalKeys = awful.util.table.join(-- Hotkeys
 
 
     awful.key({ modkey, altkey }, "o", function()
-        awful.util.spawn("ms-office-online")
+        awful.util.spawn("onlyoffice")
     end,
-        { description = "Microsoft Office", group = "apps" }))
+        { description = "Office", group = "apps" }))
 
 -- Bind all key numbers to tags.
 -- Be careful: we use keycodes to make it work on any keyboard layout.

@@ -143,7 +143,8 @@ ruled.client.connect_signal(
 					'code-oss',
 					"jetbrains-idea",
 					"jetbrains-webstorm",
-					"jetbrains-clion"
+					"jetbrains-clion",
+					"DesktopEditors"
 				},
 				name  = {
 					'LibreOffice',
