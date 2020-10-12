@@ -186,7 +186,8 @@ ruled.client.connect_signal(
 					"thunar",
 					'File-roller',
 					"Slack",
-					"Caprine"
+					"Caprine",
+					"Signal Beta"
 				}
 			},
 			properties = { 
