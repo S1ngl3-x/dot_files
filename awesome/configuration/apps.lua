@@ -85,6 +85,8 @@ return {
 
 		"setxkbmap -option grp:switch,grp_led:scroll,grp:win_space_toggle -layout us,cz -variant ,qwerty",
 
+		"/usr/bin/numlockx on",
+
 		"mailspring -b",
 
 		"owncloud",
