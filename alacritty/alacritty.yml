@@ -1,6 +1,13 @@
 env:
   TERM: xterm-256color
   WINIT_X11_SCALE_FACTOR: "1.0"
+cursor:
+  # Cursor style
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Beam
 
 window:
   columns: 0
@@ -34,7 +41,6 @@ scrolling:
 
   # Scrolling distance multiplier.
   #multiplier: 3
-
 font:
   normal:
     #family: Noto Sans Mono
@@ -61,7 +67,6 @@ font:
 
 
 background_opacity: 0.80
-# Colors (Gruvbox dark)
 colors:
   # Default colors
   primary:
