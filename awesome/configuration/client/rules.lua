@@ -203,7 +203,9 @@ ruled.client.connect_signal(
 				class = {
 					'vlc',
 --					'Spotify',
-					"mpv"
+					"mpv",
+					"Brave-browser"
+
 				}
 			},
 			properties = { 
