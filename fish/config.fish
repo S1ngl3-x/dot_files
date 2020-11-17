@@ -2,9 +2,10 @@ alias v=nvim
 alias xc="xclip -selection clipboard"
 alias turnOffScrlkLight="xset -led named \"Scroll Lock\""
 alias r=ranger
-alias update="sudo apt update;apt list --upgradable; sudo apt upgrade -y"
+alias update="sudo apt update; and apt list --upgradable; and sudo apt upgrade -y"
 alias s="git status"
 alias t="devour subl -nw"
+alias tp="subl -n"
 alias mpv="devour mpv"
 set fish_greeting
 set -gx EDITOR nvim
