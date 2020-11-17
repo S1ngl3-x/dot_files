@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"fish",
+		"GitGutter",
+		"JSLint",
+		"JsPrettier",
+		"Material Theme",
+		"Nodejs",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"TypeScript"
+	]
+}
