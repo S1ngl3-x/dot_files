@@ -4,9 +4,7 @@ alias turnOffScrlkLight="xset -led named \"Scroll Lock\""
 alias r=ranger
 alias update="sudo apt update; and apt list --upgradable; and sudo apt upgrade -y"
 alias s="git status"
-alias t="devour subl -nw"
-alias tp="subl -n"
-alias mpv="devour mpv"
+alias t="subl -a"
 alias l="ls -t"
 set fish_greeting
 set -gx EDITOR nvim
