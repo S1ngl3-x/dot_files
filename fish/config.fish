@@ -7,6 +7,7 @@ alias s="git status"
 alias t="devour subl -nw"
 alias tp="subl -n"
 alias mpv="devour mpv"
+alias l="ls -t"
 set fish_greeting
 set -gx EDITOR nvim
 set -g __fish_git_prompt_show_informative_status 1
