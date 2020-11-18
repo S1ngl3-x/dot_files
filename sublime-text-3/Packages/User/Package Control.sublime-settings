@@ -8,6 +8,7 @@
 		"A File Icon",
 		"AdvancedNewFile",
 		"DocBlockr",
+		"Dotfiles Syntax Highlighting",
 		"Emmet",
 		"FileDiffs",
 		"fish",
@@ -20,6 +21,8 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-bashate",
+		"SublimeLinter-lua",
 		"TypeScript"
 	]
 }
