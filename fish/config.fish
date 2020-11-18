@@ -24,6 +24,8 @@ set -g __fish_git_prompt_char_upstream_diverged 'ﱟ'
 set -g __fish_git_prompt_char_upstream_equal ''
 set -g __fish_git_prompt_char_upstream_prefix ''''
 
+set PATH /home/adam/.local/bin $PATH
+
 # Powerline setup - just uncomment it
 set fish_function_path $fish_function_path "/usr/share/powerline/bindings/fish"
 source /usr/share/powerline/bindings/fish/powerline-setup.fish
