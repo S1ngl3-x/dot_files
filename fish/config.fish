@@ -4,7 +4,7 @@ alias turnOffScrlkLight="xset -led named \"Scroll Lock\""
 alias r=ranger
 alias update="sudo apt update; and apt list --upgradable; and sudo apt upgrade -y"
 alias s="git status"
-alias t="subl -a"
+alias t="/home/adam/Apps/sublime_text_3/sublime_text -a"
 alias l="ls -t"
 set fish_greeting
 set -gx EDITOR nvim
@@ -25,6 +25,7 @@ set -g __fish_git_prompt_char_upstream_equal ''
 set -g __fish_git_prompt_char_upstream_prefix ''''
 
 set PATH /home/adam/.local/bin $PATH
+
 
 # Powerline setup - just uncomment it
 set fish_function_path $fish_function_path "/usr/share/powerline/bindings/fish"

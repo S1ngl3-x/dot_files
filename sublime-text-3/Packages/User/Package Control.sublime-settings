@@ -13,8 +13,8 @@
 		"FileDiffs",
 		"fish",
 		"GitGutter",
+		"HTML-CSS-JS Prettify",
 		"JSLint",
-		"JsPrettier",
 		"Material Theme",
 		"Nodejs",
 		"Package Control",
@@ -22,6 +22,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-bashate",
+		"SublimeLinter-jshint",
 		"SublimeLinter-lua",
 		"TypeScript"
 	]
