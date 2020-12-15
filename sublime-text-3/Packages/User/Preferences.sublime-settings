@@ -1,5 +1,4 @@
 {
-	"update_check": false,
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"font_size": 12,
@@ -17,5 +16,6 @@
 	"material_theme_small_tab": true,
 	"material_theme_tabs_autowidth": true,
 	"spellcheck": true,
-	"theme": "Material-Theme-Darker.sublime-theme"
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"update_check": false
 }
