@@ -16,5 +16,6 @@
 	"material_theme_small_tab": true,
 	"material_theme_tabs_autowidth": true,
 	"spellcheck": true,
-	"theme": "Material-Theme-Darker.sublime-theme"
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"update_check": false
 }
