@@ -22,4 +22,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/xolox/vim-misc'
     Plug 'https://github.com/xolox/vim-lua-ftplugin'
     Plug 'https://github.com/elzr/vim-json'
+    Plug 'dense-analysis/ale'
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    Plug 'deoplete-plugins/deoplete-jedi'
+    Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+let g:deoplete#enable_at_startup = 1
 call plug#end()

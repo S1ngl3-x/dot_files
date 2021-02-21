@@ -17,3 +17,4 @@ set incsearch
 set spell spelllang=en_us
 
 colorscheme onedark
+call deoplete#custom#option('num_processes', 4)
