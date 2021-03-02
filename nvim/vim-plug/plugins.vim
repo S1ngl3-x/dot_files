@@ -26,5 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     Plug 'deoplete-plugins/deoplete-jedi'
     Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+    Plug 'https://github.com/vim-scripts/indentpython.vim'
+    Plug 'https://github.com/vim-syntastic/syntastic'
 let g:deoplete#enable_at_startup = 1
 call plug#end()

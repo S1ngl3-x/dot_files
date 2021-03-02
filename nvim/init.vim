@@ -16,5 +16,9 @@ set incsearch
 
 set spell spelllang=en_us
 
+set encoding=utf-8
+let python_highlight_all=1
+
+
 colorscheme onedark
 call deoplete#custom#option('num_processes', 4)
