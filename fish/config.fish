@@ -4,7 +4,8 @@ alias turnOffScrlkLight="xset -led named \"Scroll Lock\""
 alias r=ranger
 alias update="sudo apt update; and apt list --upgradable; and sudo apt upgrade -y; flatpak update -y"
 alias s="git status"
-alias t="/home/adam/Apps/sublime_text_3/sublime_text -a"
+# alias t="/home/adam/Apps/sublime_text_3/sublime_text -a"
+alias t="subl -a"
 alias l="ls -t"
 set fish_greeting
 set -gx EDITOR nvim
@@ -24,8 +25,12 @@ set -g __fish_git_prompt_char_upstream_diverged 'ﱟ'
 set -g __fish_git_prompt_char_upstream_equal ''
 set -g __fish_git_prompt_char_upstream_prefix ''''
 
+set --export GUROBI_HOME /home/adam/ownCloud/skola/ko/gurobi/gurobi911/linux64
 
 set PATH /home/adam/.local/bin $PATH
+set --export PATH $PATH:$GUROBI_HOME/bin
+set --export LD_LIBRARY_PATH /user/local/bin
+set --export LD_LIBRARY_PATH $LD_LIBRARY_PATH:$GUROBI_HOME/lib
 
 
 # Powerline setup - just uncomment it
