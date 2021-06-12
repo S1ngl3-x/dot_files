@@ -21,4 +21,5 @@ let python_highlight_all=1
 
 set number relativenumber
 colorscheme onedark
+
 call deoplete#custom#option('num_processes', 4)
