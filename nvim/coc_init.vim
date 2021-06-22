@@ -1,14 +1,4 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
-
-map <C-o> :NERDTreeToggle<CR>
-inoremap jk <Esc>
-set number relativenumber
-colorscheme onedark
-
-
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
-
 " unicode characters in the file autoload/float.vim
 set encoding=utf-8
 
