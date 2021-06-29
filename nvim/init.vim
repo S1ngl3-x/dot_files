@@ -5,6 +5,11 @@ inoremap jk <Esc>
 set number relativenumber
 colorscheme onedark
 
+" add normal mouse scroll
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
+
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
