@@ -19,6 +19,6 @@ if type -q exa
 end
 
 # Powerline setup - just uncomment it
-set fish_function_path $fish_function_path "/usr/share/powerline/bindings/fish"
-source /usr/share/powerline/bindings/fish/powerline-setup.fish
+set fish_function_path $fish_function_path "/usr/share/powerline/fish"
+source /usr/share/powerline/fish/powerline-setup.fish
 powerline-setup
