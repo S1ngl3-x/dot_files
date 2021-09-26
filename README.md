@@ -1,4 +1,6 @@
-# Custom config
+# Adam's dotfiles
+
+![Teaser](teaser.png)
 
 ## Fish
 
