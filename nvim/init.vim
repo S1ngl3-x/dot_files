@@ -4,6 +4,9 @@ map <C-o> :NERDTreeToggle<CR>
 inoremap jk <Esc>
 set number relativenumber
 colorscheme onedark
+let g:lightline = {
+  \ 'colorscheme': 'onedark',
+  \ }
 
 " add normal mouse scroll
 set mouse=a
