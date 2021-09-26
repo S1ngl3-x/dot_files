@@ -1,6 +1,7 @@
 " load sources
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/coc/code-completion.vim
+source $HOME/.config/nvim/coc/extention-list.vim
 source $HOME/.config/nvim/style.vim
 
 " custom keymaps
