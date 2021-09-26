@@ -1,1 +1,5 @@
 Mailspring/
+awesome/configuration/secrets.lua
+nvim/autoload/plugged/
+nvim/pack/
+.idea/

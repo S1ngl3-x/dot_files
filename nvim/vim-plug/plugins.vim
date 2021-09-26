@@ -8,19 +8,10 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
-    " File Explorer
-    Plug 'scrooloose/NERDTree'
-    " Auto pairs for '(' '[' '{' 
-    Plug 'jiangmiao/auto-pairs'
+    Plug 'joshdick/onedark.vim'
+    Plug 'itchyny/lightline.vim'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}    
+    Plug 'preservim/nerdtree'
+    Plug 'dag/vim-fish'
 
-    Plug 'https://github.com/itchyny/lightline.vim'
-    Plug 'https://github.com/wikitopian/hardmode'
-    Plug 'https://github.com/tpope/vim-surround'
-    Plug 'https://github.com/airblade/vim-gitgutter'
-    Plug 'https://github.com/joshdick/onedark.vim'
-    Plug 'https://github.com/xolox/vim-misc'
-    Plug 'https://github.com/xolox/vim-lua-ftplugin'
-    Plug 'https://github.com/elzr/vim-json'
 call plug#end()
