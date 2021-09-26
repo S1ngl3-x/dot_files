@@ -6,7 +6,9 @@ source $HOME/.config/nvim/style.vim
 " custom keymaps
 map <C-o> :NERDTreeToggle<CR> " ctrl + o = toggle nerd tree
 inoremap jk <Esc> " jk = enter normal mode
-set number relativenumber
+
+
+set number relativenumber " dynamic line numbering
 
 " add normal mouse scroll
 set mouse=a
