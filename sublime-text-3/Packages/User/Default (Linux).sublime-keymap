@@ -1,5 +1,0 @@
-[
-	{ "keys": ["ctrl+q"], "command": "close_file" },
-	{ "keys": ["super+k"], "command": "next_view" },
-	{ "keys": ["super+j"], "command": "prev_view" },
-]
