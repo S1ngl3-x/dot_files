@@ -3,6 +3,7 @@ let g:coc_global_extensions = [
       \'coc-highlight',
       \'coc-json',
       \'coc-git',
+      \'coc-pairs',
       \'coc-pyright',
       \'coc-tsserver',
       \'coc-sh'
