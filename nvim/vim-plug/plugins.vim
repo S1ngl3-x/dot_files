@@ -12,5 +12,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/itchyny/lightline.vim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}    
     Plug 'preservim/nerdtree'
-let g:deoplete#enable_at_startup = 1
+
 call plug#end()
