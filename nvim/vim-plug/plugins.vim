@@ -9,7 +9,8 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'joshdick/onedark.vim'
-    Plug 'itchyny/lightline.vim'
+"    Plug 'itchyny/lightline.vim'
+    Plug 'vim-airline/vim-airline'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}    
     Plug 'preservim/nerdtree'
     Plug 'dag/vim-fish'
