@@ -3,7 +3,6 @@ set -gx EDITOR nvim
 
 alias v=nvim
 alias xc="xclip -selection clipboard"
-alias turnOffScrlkLight="xset -led named \"Scroll Lock\""
 alias r=ranger
 alias s="git status"
 alias t="subl -a"
