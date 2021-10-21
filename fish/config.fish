@@ -12,7 +12,7 @@ alias p="python"
 if type -q exa
   alias l "exa -l --icons -s modified -r"
   alias lt "l --tree --level=2"
-  alias la "l -a"
+  alias la "l -lah"
   alias lat "la --tree --level=2"
   alias ll "exa --icons -s modified -r"
 end
