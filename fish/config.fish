@@ -7,6 +7,7 @@ alias r=ranger
 alias s="git status"
 alias t="subl -a"
 alias p="python"
+alias update="sudo dnf upgrade; flatpak update"
 
 # exa aliases
 if type -q exa
