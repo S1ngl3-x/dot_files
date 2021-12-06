@@ -8,8 +8,9 @@ source $HOME/.config/nvim/style.vim
 map <C-o> :NERDTreeToggle<CR> " ctrl + o = toggle nerd tree
 inoremap jk <Esc> " jk = enter normal mode
 
-
 set number relativenumber " dynamic line numbering
+
+set clipboard+=unnamedplus " copy to system clipboard
 
 " add normal mouse scroll
 set mouse=a
