@@ -16,3 +16,7 @@ set clipboard+=unnamedplus " copy to system clipboard
 set mouse=a
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
+
+" custom macros
+let @v = 'ggVGp'
+let @c = 'ggVGY'
