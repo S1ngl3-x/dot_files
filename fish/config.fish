@@ -5,7 +5,7 @@ alias v=nvim
 alias xc="xclip -selection clipboard"
 alias r=ranger
 alias s="git status"
-alias t="subl -a"
+alias t="codium -n"
 alias p="python"
 alias update="sudo dnf upgrade; flatpak update"
 
