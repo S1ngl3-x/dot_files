@@ -5,7 +5,7 @@ alias v=nvim
 alias xc="xclip -selection clipboard"
 alias r=ranger
 alias s="git status"
-alias t="subl -a"
+alias t="codium -n"
 alias p="python"
 alias update="sudo dnf upgrade; flatpak update"
 
@@ -22,3 +22,8 @@ end
 set fish_function_path $fish_function_path "/usr/share/powerline/fish"
 source /usr/share/powerline/fish/powerline-setup.fish
 powerline-setup
+
+# Paths
+
+# for python libraries installed with pip
+fish_add_path ~/.local/bin/
