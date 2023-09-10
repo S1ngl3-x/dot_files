@@ -22,3 +22,8 @@ end
 set fish_function_path $fish_function_path "/usr/share/powerline/fish"
 source /usr/share/powerline/fish/powerline-setup.fish
 powerline-setup
+
+# Paths
+
+# for python libraries installed with pip
+fish_add_path ~/.local/bin/
