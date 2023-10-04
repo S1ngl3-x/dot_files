@@ -3,3 +3,5 @@ awesome/configuration/secrets.lua
 nvim/autoload/plugged/
 nvim/pack/
 .idea/
+scripts/last_sepa_inst_record_filename.txt
+fish/fish_variables
