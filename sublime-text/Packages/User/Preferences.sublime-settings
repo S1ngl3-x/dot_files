@@ -1,0 +1,19 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+    "draw_white_space": "selection",
+    "font_size": 12,
+    "highlight_line": true,
+    "auto_complete": true,
+    "show_panel_on_build": false,
+    "rulers": [],
+    "fold_buttons": false,
+    "fade_fold_buttons": false,
+    "wide_caret": true,
+    "line_padding_top": 1,
+    "line_padding_bottom": 1,
+    "always_show_minimap_viewport": false,
+    "show_definitions": false,
+    "show_hover": false
+}
+

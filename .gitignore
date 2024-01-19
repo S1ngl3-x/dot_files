@@ -6,3 +6,8 @@ nvim/pack/
 scripts/last_sepa_inst_record_filename.txt
 scripts/last_date.txt
 fish/fish_variables
+coc/
+configstore/
+htop/
+iterm2/
+neofetch/
