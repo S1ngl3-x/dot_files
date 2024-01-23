@@ -15,13 +15,13 @@ alias t="subl"
 alias p="python3"
 alias update="sudo dnf upgrade; flatpak update"
 
-# exa aliases
-if type -q exa
-  alias l "exa -l --icons -s modified -r"
+# eza aliases
+if type -q eza
+  alias l "eza -l --icons -s modified -r"
   alias lt "l --tree --level=2"
   alias la "l -lah"
   alias lat "la --tree --level=2"
-  alias ll "exa --icons -s modified -r"
+  alias ll "eza --icons -s modified -r"
 end
 
 # Powerline setup - just uncomment it
