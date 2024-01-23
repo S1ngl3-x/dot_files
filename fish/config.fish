@@ -2,7 +2,6 @@ set fish_greeting
 set -gx EDITOR nvim
 
 # Paths
-
 # for python libraries installed with pip
 fish_add_path ~/.local/bin/
 fish_add_path /opt/homebrew/bin/
