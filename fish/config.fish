@@ -1,18 +1,19 @@
 set fish_greeting
 set -gx EDITOR nvim
 
-# Paths
-# for python libraries installed with pip
-fish_add_path ~/.local/bin/
-fish_add_path /opt/homebrew/bin/
+# Call the OS detection function to set up the environment for other functions
+detect_os
 
-alias v=nvim
-alias xc="xclip -selection clipboard"
-alias r=ranger
+# Paths
+fish_add_path ~/.local/bin/ # for python libraries installed with pip
+fish_add_path /opt/homebrew/bin/ # for brew binaries
+
+alias v="nvim"
+alias r="ranger"
 alias s="git status"
 alias t="subl"
 alias p="python3"
-alias update="sudo dnf upgrade; flatpak update"
+
 
 # eza aliases
 if type -q eza
@@ -31,9 +32,3 @@ end
 # function fish_prompt
 #     /usr/local/bin/powerline-go -error $status
 # end
-
-
-function fish_prompt
-    powerline-go -error $status -modules "user,cwd" -modules-right "git" -git-mode "simple" -cwd-max-depth 3
-end
-
