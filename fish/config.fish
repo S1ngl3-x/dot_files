@@ -23,12 +23,3 @@ if type -q eza
   alias lat "la --tree --level=2"
   alias ll "eza --icons -s modified -r"
 end
-
-# Powerline setup - just uncomment it
-# set fish_function_path $fish_function_path "/usr/share/powerline/fish"
-# source /usr/share/powerline/fish/powerline-setup.fish
-# powerline-setup
-
-# function fish_prompt
-#     /usr/local/bin/powerline-go -error $status
-# end
