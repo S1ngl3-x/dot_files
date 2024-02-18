@@ -1,0 +1,11 @@
+# Disable DualSense/DualShock touchpad acting as mouse
+# USB
+ACTION=="add|change" KERNEL=="event[0-9]*" ATTRS{name}=="Sony Computer Entertainment Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+ACTION=="add|change" KERNEL=="event[0-9]*" ATTRS{name}=="Sony Interactive Entertainment DualSense Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+
+# Bluetooth
+ACTION=="add|change" KERNEL=="event[0-9]*" ATTRS{name}=="Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+# ACTION=="add|change" KERNEL=="event[0-9]*" ATTRS{name}=="DualSense Wireless Controller Touchpad", ENV{LIBINPUT_IGNORE_DEVICE}="1"
+
+Save this to /etc/udev/rules.d/72-sony.rules
+run sudo udevadm control --reload
