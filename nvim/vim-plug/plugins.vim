@@ -8,11 +8,11 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    Plug 'joshdick/onedark.vim', {'branch': 'main'}    
     Plug 'vim-airline/vim-airline'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}    
     Plug 'preservim/nerdtree'
     Plug 'dag/vim-fish'
     Plug 'fladson/vim-kitty', {'branch': 'main'}    
+    Plug 'rose-pine/neovim', {'branch': 'main', 'as': 'rose-pine'}   
 
 call plug#end()

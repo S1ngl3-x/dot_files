@@ -1,3 +1,3 @@
 " style neovim
-colorscheme onedark
+colorscheme rose-pine
 let g:airline_theme='onedark'
