@@ -15,5 +15,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dag/vim-fish'
     Plug 'fladson/vim-kitty', {'branch': 'main'}    
     Plug 'rose-pine/neovim', {'branch': 'main', 'as': 'rose-pine'}   
+    Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 
 call plug#end()
