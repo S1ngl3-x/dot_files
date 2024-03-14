@@ -9,6 +9,7 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}    
     Plug 'preservim/nerdtree'
     Plug 'dag/vim-fish'
