@@ -9,3 +9,4 @@ ACTION=="add|change" KERNEL=="event[0-9]*" ATTRS{name}=="Wireless Controller Tou
 
 Save this to /etc/udev/rules.d/72-sony.rules
 run sudo udevadm control --reload
+this only worked with physical keyboard attached, ssh didn't work
