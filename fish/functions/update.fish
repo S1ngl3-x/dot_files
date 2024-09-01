@@ -8,7 +8,7 @@ function update
             brew_upgrade_casks
             brew cleanup
         case 'fedora'
-            sudo dnf upgrade --refresh
-            flatpak update
+            sudo dnf upgrade --refresh -y
+            flatpak update -y
     end
 end
