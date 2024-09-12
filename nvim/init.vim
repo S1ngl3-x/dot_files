@@ -1,13 +1,22 @@
+" load sources
 source $HOME/.config/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/coc/code-completion.vim
+source $HOME/.config/nvim/coc/extention-list.vim
+source $HOME/.config/nvim/style.vim
 
-let g:HardMode_level = 'wannabe'
-let g:HardMode_hardmodeMsg = 'Don''t use this!'
-autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
+" custom keymaps
+map <C-o> :NERDTreeToggle<CR> " ctrl + o = toggle nerd tree
+inoremap jk <Esc> " jk = enter normal mode
 
-"map <C-o> :NERDTreeToggle<CR>
+set number relativenumber " dynamic line numbering
 
-set number
-colorscheme onedark
-set clipboard+=unnamedplus
-set ignorecase
-hi Normal guibg=NONE ctermbg=NONE
+set clipboard+=unnamedplus " copy to system clipboard
+
+" add normal mouse scroll
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
+
+" custom macros
+let @v = 'ggVGp'
+let @c = 'ggVGY'
