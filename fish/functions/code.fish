@@ -1,8 +1,8 @@
 function code
     switch $OS_TYPE
-        case 'macos'
-            code
-        case 'fedora'
+        case macos
+            /usr/local/bin/code
+        case fedora
             codium --ozone-platform-hint=auto
     end
 end
